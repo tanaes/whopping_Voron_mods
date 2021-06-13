@@ -2,6 +2,7 @@
 
 ## Hardware
 
+There needs to be some way to measure the temperature of the frame. I took a little bead thermistor I had laying around and shoved it about halfway up the inside of one of my vertical extrusions, using the bottom blind joint access hole to get into the center channel. I connected this thermistor to the T2 thermistor input on my mainboard.
 
 ## Installing Software
 
