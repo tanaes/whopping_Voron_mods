@@ -39,6 +39,7 @@ Now, we need to update the firmware on our MCU to match our new Klipper software
 cd ~/klipper
 make menuconfig
 make clean
+make
 ```
 
 This will recompile the firmware. Flashing to the MCU will be different depending on your particular board. I'm running a FYSETC Spider in UART mode, and here is what worked for me:
@@ -132,11 +133,42 @@ gcode_id: chamber
 
 Now we can actually measure the thermal expansion!
 
+First, we'll update some parameters in the script to match our printer. You can use `nano measure_expansion.py` or whatever.
+
+Here's mine:
+
+```
+######### META DATA #################
+# For data collection organizational purposes
+USER_ID = 'whoppingpochard#2514'            # e.g. Discord handle
+PRINTER_MODEL = 'voron_v2_350'      # e.g. 'voron_v2_350'
+MEASURE_TYPE = 'nozzle_pin'       # e.g. 'nozzle_pin', 'microswitch_probe', etc.
+#####################################
+
+######### CONFIGURATION #############
+BASE_URL = 'http://127.0.0.1'       # printer URL (e.g. http://192.168.1.15)
+                                    # leave default if running locally
+BED_TEMPERATURE = 105               # bed temperature for measurements
+HE_TEMPERATURE = 100                # extruder temperature for measurements
+MEASURE_INTERVAL = 1.               # measurement interval (minutes)
+N_SAMPLES = 3                       # number of repeated measures
+HOT_DURATION = 3                    # time after bed temp reached to continue
+                                    # measuring, in hours
+COOL_DURATION = 2                   # hours to continue measuring after heaters
+                                    # are disabled
+MEASURE_GCODE = 'G28 Z'             # G-code called on repeated measurements, single line/macro only
+# chamber thermistor config name. Change to match your own, or "" if none
+# will also work with temperature_fan configs
+CHAMBER_CONFIG = "temperature_sensor chamber"
+#####################################
+
+```
+
 I verified that everything started up as expected, then I SSH'd into the Pi and ran the script:
 
 ```
 cd ~/frame_expansion
-python measure_expansion.py
+python3 measure_expansion.py
 ```
 
 It's running now!
