@@ -1,0 +1,177 @@
+---
+title: "frame expansion"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo=FALSE}
+require(ggplot2)
+```
+
+# Measuring frame expansion and calculating gantry factor
+
+## Data functions
+
+### Data import 
+
+I've written a little function to import the data and calculate the effective
+z distance from the raw step output.
+
+```{r}
+
+load_data <- function(data_fp, step_distance=0.0025) {
+  data_df <- read.csv(data_fp, sep=',', comment.char = '#')
+  
+  data_df$z = (data_df$mcu_pos_z - data_df$mcu_pos_z[1])*step_distance
+  return(data_df)
+}
+
+```
+
+
+### Fitting model
+
+Currently, alchemyEngine is calculating gantry correction factor by removing the
+beginning and end of the data, where changes to bed temperature seem to influence
+the estimated home location. (It's thought that this is due to thermal changes
+in the homing microswitch itself, due to the proximity of the switch to the bed.)
+
+As such, the module is really only effective at correcting tool Z positioning 
+if it homes *after* the z switch has achieved thermal equilibrium. I was curious
+to see whether we could achieve a similar result by fitting the whole dataset as
+an additive effect of bed temperature and frame temperature.
+
+This function takes the imported data and fits a simple additive linear model,
+including both bed and frame temperature as explanatory variables. It outputs a
+data structure with the fit model, the original data frame with columns added
+for the residuals and model fit predicted values, and a plot of the residuals.
+
+```{r}
+fit_model <- function(data_df) {
+  mod <- lm(z ~ bed_t + frame_t, data_df)
+  data_df$resid <- mod$residuals
+  data_df$fit <- mod$fitted.values
+  
+  p <- ggplot(data_df, aes(x = fit, y = resid, color=sample)) + geom_point() + scale_color_viridis_c()
+  return(list("data" = data_df,"model" = mod, "plot" = p))
+}
+
+```
+
+
+
+## Dataset 1
+
+This is the first run on my machine. Here, I'm using a 50K B3950 NTC thermistor
+for frame temp measurement, and defining it in Klipper using the `beta` parameter.
+
+```{r}
+df1 <- load_data('./data/frame_exp_quant_v3_2021-06-13_05-41-53.csv')
+df1_mod <- fit_model(df1)
+
+df1_mod$plot + ggtitle("Dataset 1 residuals: beta thermistor definition")
+```
+The residuals plot for this dataset shows that there's some definite nonlinearity, 
+as well as some lurking explanatory factors. However, the simple two-factor 
+linear model explains 99.6% of the variance in the *total* dataset -- about the 
+same as what bed temperature alone explains in just the middle portion, per
+alchemyEngine's calculations.
+
+```{r}
+summary(df1_mod$model)
+```
+
+
+```{r}
+
+l <- ggplot(subset(df1_mod$data, bed_target == 105 & sample>10), aes(x = frame_t, y = z, color=sample)) + geom_point() + scale_color_viridis_c() + geom_smooth(method=lm) + ggtitle('First run: beta 50k definition')
+
+l
+```
+If we cut out just the portion of the dataset after the first 10 minutes and 
+before the bed powers down, we can see that we're not observing a very linear
+change in Z deviation with frame temperature. That is *not* what we'd expect if
+our model of frame expansion driving the Z deviation was accurate, as the frame
+should be expanding linearly with temperature! But maybe there's something more
+going on...
+
+
+## Dataset 1b
+
+After some discussion about how thermistors are handled in Klipper, I decided 
+to re-do the data collection using a three-point thermistor definition rather
+than the beta value. Otherwise, everything else about this dataset is identical.
+
+```{r}
+df1b <- load_data('./data/expansion_quant_whoppingpochard#2514_2021-06-13_20-04-43.csv')
+df1b_mod <- fit_model(df1b)
+
+df1b_mod$plot
+```
+So this is interesting -- the portion of the data immediate after the first 
+warm-up period, and prior to the bed cooldown, seems to be very well predicted 
+by our two-component model (the residuals are mostly hovering around zero, with
+much less of an apparent trend). There's still something about the behavior after
+the bed powers down that we're not capturing with these two measurements, though.
+
+```{r}
+
+ggplot(subset(df1b_mod$data, bed_target == 105 & sample>10), aes(x = frame_t, y = z, color=sample)) + geom_point() + scale_color_viridis_c() + geom_smooth(method=lm) + ggtitle('Second run: 3 point definition')
+
+```
+Looking at the central portion of the data now, we can see that this is *much* 
+better fit by a linear model. This suggests that it really was error in how 
+measured resistance was being converted to temperature leading to the nonlinearity, 
+and our overall model of the system is still useful!
+
+# Calculating gantry factor
+
+Next, we'll use the results to calculate the gantry factor that best fits my 
+machine.
+
+I've made a little helper function, adapted from the frame_compensation code,
+to reproduce the frame compensation factor that is calculated when it's running
+on the machine. I've included my frame Z length and coefficient as defaults,
+but if you're running this you'll want to replace them with your own.
+
+```{r}
+
+calc_offset <- function(delta_t, frame_z=530/1E3, coeff=23.4/1E6, gantry_factor=1) {
+  
+  offset = -1 * (frame_z * (coeff * delta_t) * gantry_factor) * 1E3
+  return(offset)
+}
+```
+
+To actually estimate the gantry factor, we need to add another data column
+for the delta_t value between the timepoint we're establishing as our reference,
+and the current timepoint. Then we can calculate the frame_comp offset for that
+delta_t.
+
+```{r}
+test_df <- df1b_mod$data
+test_df$delta_t <- test_df$frame_t - mean(test_df[test_df$sample == 30, 'frame_t'])
+test_df$compensated <- unlist(lapply(test_df$delta_t, calc_offset))
+
+
+
+ggplot(subset(test_df, bed_target == 105 & sample>30), aes(x = compensated, y = z, color=frame_t)) + geom_point() + geom_smooth(method=lm) + scale_color_viridis_c() + ggtitle('Compensation (gantry_factor == 1) vs observed z offset')
+
+```
+Plotting the offset we calculate given `gantry_factor == 1` shows us that, if we
+were to use 1 as our factor, klipper would only drop the toolhead about 0.018 mm
+when the Z was actually offset from -0.05 to -0.10 mm, so we actually want a 
+`gantry_factor` about `0.05 / 0.018` times that, or around 2.8.
+
+That is to say, the slope of the best-fit line equals the *actual* gantry factor
+we want to use:
+
+```{r}
+result <- lm(z ~ compensated, subset(test_df, bed_target == 105 & sample>30))
+result
+```
+
+Thus, going forward, I am using a `gantry_factor` of 2.8 for testing. 
