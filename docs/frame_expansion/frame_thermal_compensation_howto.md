@@ -172,3 +172,6 @@ python3 measure_expansion.py
 ```
 
 It's running now!
+
+# Exploring measurement data
+

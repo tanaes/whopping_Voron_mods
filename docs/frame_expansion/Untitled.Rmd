@@ -1,0 +1,76 @@
+---
+title: "frame expansion"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## First frame expansion run
+
+### Import data
+
+```{r echo=FALSE}
+require(ggplot2)
+require(lubridate)
+```
+
+```{r}
+
+load_data <- function(data_fp, step_distance=0.0025) {
+  data_df <- read.csv(data_fp, sep=',', comment.char = '#')
+  
+  data_df$z = (data_df$mcu_pos_z - data_df$mcu_pos_z[1])*step_distance
+  return(data_df)
+}
+
+```
+
+
+## Fitting model
+
+You can also embed plots, for example:
+
+```{r}
+fit_model <- function(data_df) {
+  mod <- lm(z ~ bed_t + frame_t, data_df)
+  data_df$resid <- mod$residuals
+  data_df$fit <- mod$fitted.values
+  
+  p <- ggplot(data_df, aes(x = fit, y = resid, color=sample)) + geom_point() + scale_color_viridis_c()
+  return(list("data" = data_df,"model" = mod, "plot" = p))
+}
+
+```
+
+
+
+## Dataset 1
+
+```{r}
+df1 <- load_data('./frame_exp_quant_v3_2021-06-13_05-41-53.csv')
+df1_mod <- fit_model(df1)
+
+df1_mod$plot
+```
+
+
+## Dataset 2
+
+```{r}
+df2 <- load_data('./frame_exp_quant_v3_2021-06-12_12-54-36-mvieleers_V2.1253.csv')
+df2_mod <- fit_model(df2)
+
+df2_mod$plot
+```
+
+
+## Dataset 2
+
+```{r}
+df3 <- load_data('./frame_temp_v_pos_2021-06-05_13-24-32.csv')
+df3_mod <- fit_model(df3)
+
+df3_mod$plot
+```
