@@ -31,6 +31,26 @@ git checkout -b frame_expansion alchemyEngine/work-frame-expansion-20210410
 
 This creates a new branch called `frame_expansion` and updates it to match alchemyEngine's. Our starting Klipper software remains in the `main` branch. 
 
+If we want to pull in further main-branch Klipper updates, we first need to make sure we have it on our list of remotes:
+
+```
+cd ~/klipper
+git remote -v
+> alchemy	https://github.com/alchemyEngine/klipper.git (fetch)
+> alchemy	https://github.com/alchemyEngine/klipper.git (push)
+> origin	https://github.com/KevinOConnor/klipper.git (fetch)
+> origin	https://github.com/KevinOConnor/klipper.git (push)
+```
+
+If things look like this, you're good to go:
+
+```
+cd ~/klipper
+git fetch origin
+git pull origin master
+```
+
+
 ### Flash updated firmware
 
 Now, we need to update the firmware on our MCU to match our new Klipper software.
