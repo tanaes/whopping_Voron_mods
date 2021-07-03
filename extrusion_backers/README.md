@@ -16,9 +16,9 @@ So I tried loosening the screws on the bottom X rail of my V2.4 350, and re-ran 
 
 ### Bed mesh changes as predicted with frame temperature
 
-To confirm, I decided to go ahead an loosen *all* the rails on both X and Y, heat soak the machine for a couple hours, and then tighten them down; this should ensure that the gantry is as flat as possible when at temperature, but will bow downwards when it is cold as the aluminum contracts more than the stell rail beneath.
+To confirm, I decided to go ahead an loosen *all* the rails on both X and Y, heat soak the machine for a couple hours, and then tighten them down; this should ensure that the gantry is as flat as possible when at temperature, but will bow downwards when it is cold as the aluminum contracts more than the steel rail beneath.
 
-And that's indeed what I saw. After hot-tightening the rails, I took a bed mesh while everything was still hot. I then allowed the printer to cool for a couple hours, reheated the heat bed, and took another mesh while the bed was hot but the frame was still cold.
+And that's indeed what I saw. After hot-tightening the rails, I took a bed mesh while everything was still hot. I then allowed the printer to cool for a couple hours, reheated the bed, and took another mesh while the bed was hot but the frame was still cold.
 
 What I saw was just what we'd predict, with the "hot frame" measurement (left) being quite flat, but the "cold frame" measurement appearing as if the center of the bed were closer to the probe:
 
