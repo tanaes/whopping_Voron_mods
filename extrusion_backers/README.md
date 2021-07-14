@@ -69,3 +69,32 @@ A set of 3 backers in 1.9 mm steel can be bought at [SendCutSend](www.sendcutsen
 
 If you're feeling spendy, even the Ti backers still cost about the same as cheapo linear rails, with a set of three costing around $60.
 
+
+## The results
+
+I put in an order for 8 sets of backers in various sizes, all of which have been sent out to people on the Voron Discord for testing. Most of these were in mild steel, but there are also a few pieces in titanium.
+
+Results from testing are below.
+
+### Case study 1: whoppingpochard, steel backers X and Y
+
+After countersinking and tapping my mild steel backers, I tried hastily cold-bluing them with some gun blue. The results were decidedly mixed, and I *also* very conveniently misplaced my 3-in-1, so sadly they were a little splotchy the next morning. They installed perfectly on the machine, though, with apparently just enough clearance without modifying cable chains: 
+
+<img src="./images/backers_installed.jpeg" width=600>
+
+To test, I performed the following operation:
+1. preheated the bed
+2. took a bed mesh while bed was still hot
+3. took a bed mesh after 2 hour heat soak (frame at ~35° C)
+4. installed backers on each axis
+5. repeated steps 1-3
+
+This is the result:
+
+<img src="./images/test1_comparison.png" width=600>
+
+(Please ignore the odd tilt of the bed, as I think I did QGL at a non-equilibrium point.)
+
+The hot bed appears pretty planar from the perspective of the toolhead while the frame is still cold. *Without* backers, after the frame has heatsoaked, the bed appears cupped -- presumably due to the extrusion bending upward towards the center. 
+
+But *with* backers installed, the bed still appears planar after the heatsoak. This appears to indicate the backers are actually working!
