@@ -98,3 +98,47 @@ This is the result:
 The hot bed appears pretty planar from the perspective of the toolhead while the frame is still cold. *Without* backers, after the frame has heatsoaked, the bed appears cupped -- presumably due to the extrusion bending upward towards the center. 
 
 But *with* backers installed, the bed still appears planar after the heatsoak. This appears to indicate the backers are actually working!
+
+I also developed a script to test gantry bowing in a more controlled fashion. Essentially, the script does a bed mesh while the frame is cold and then another once the frame heats up, and compares the two. As long as the bed is the same temperature for each mesh, we assume that any non-linear deviation measured is a result of flexing frame members.
+
+Here are the results from my printer, with and without backers installed (I ran this test after swapping out the steel X backer for a titanium one):
+
+<img src="./images/results/whopping_results.png" width=800>
+
+The mesh heatmap is not a measure of the bed surface itself, but rather the *difference* between the hot-frame mesh and the cold-frame mesh. It shows that, on my printer, I get more than 0.25 mm of cumulative change over the span of my bed -- more than a whole first layer thickness!
+
+The line plot is a rough approximation of how we are inferring the gantry frame members are flexing, based on the pre- and post-heat measurements. Although not perfect, it gives us an intuitive illustration of the effect.
+
+On the right side, you can see that installing the backers improved my measurements substantially! The titanium backer on X may indeed be doing better than the *thicker* steel backers on Y.
+
+### Case study 2: garretwp, V2.4 300 mm
+
+In principle, the MGN12 X-axis mod should help ameliorate the bowing problem in X as the single rail is on the front of the X extrusion, thus should not induce any bowing in that extrusion along Z.
+
+That is what garretwp finds with his V2.4 300mm, which is running MGN12 on X. 
+
+<img src="./images/results/garretwp_results.png" width=800>
+
+Before installing backers, he measures substantial deflection along Y, but little if any on X. After installing Y backers, the Y deflection is substantially reduced and X is unchanged.
+
+### Case study 3: mgn9 rail as extrusion backer
+
+bythorsthunder and BnE both are running V2.4 350mm machines with the MGN12 X-axis mod. 
+
+bythorsthunder had his original mgn9 X-axis rails laying around, and installed them on top of the Y axis extrusions to offset bowing induced by the bottom rails.
+
+BnE installed steel backers on Y.
+
+<img src="./images/results/v2.4_results.png" width=800>
+
+In both cases, we see very straight X axes and little deflection along Y. Although there's some as-yet unexplained overall tilt apparent in bythorsthunder's run, there is absolutely no apparent curve along Y -- indicating that the mgn9s on top of the extrusion *perfectly* offset the rails on the bottom. Although using rails as extrusion backers requires a bit of reconfiguring (especially if running cable chains), they look like a mechanically perfect solution, especially for Y where the added mass is less of a concern.
+
+### Case study 4: V1.8s
+
+The rail arrangement on V1s differs from on V2s, as the Y rails are on top rather than bottom of the extrusion.
+
+In cassiespook's v1.8 (left), we can see the resulting deflection results in a sort of saddle shape, with X bowing upwards and Y downwards. 
+
+Yeri is running a single MGN12 on X, and although there is also some unexplained overall tilt apparent in the delta cold/hot mesh, we do see that X seems to be unbowed in Z, as we saw with the MGN12 V2s.
+
+<img src="./images/results/v1.8_results.png" width=800>
