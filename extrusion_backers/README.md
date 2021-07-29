@@ -54,14 +54,21 @@ To attach them most optimally, you'll also need to countersink the holes so they
 
 ### Simulation results
 
-Plugging these into the FEA model shows some serious improvements with a 1.9 mm steel backer:
+***NOTE: these simulations results have been updated!*** A previous commit showed titanium backer to effectively cancel out all bending moment. I think that was an error in my simulation setup. As I've learned more about the process, titanium and steel seem to simulate as approximately equivalent -- which is consistent with them having similar coefficients of expansion. Empirical data are still sparse though, so stay tuned!
 
-<img src="./images/steel_1.9mm.png" width=500>
+Here are some updated results from simulation with different thickness of titanium backers on a 250 mm frame size, using a delta of 20°C between cold and hot temperatures:
 
-A 1.5 mm titanium backer does even better:
+<img src="./images/sim_results.png" width=500>
 
-<img src="./images/ti_1.5mm.png" width=500>
+A 1.5 mm backer reduces Z deflection by almost 2/3, while a 3.2 mm backer (which has approximately the same cross-sectional area as the bottom MGN9 rail) reduces by 85%.
 
+To see an extreme example, I also tried simulating a hypothetical 450 mm frame size at a 40°C delta. This time, I also simulated using a second MGN9 rail on top as a counter to the one on bottom.
+
+<img src="./images/sim_results-450.png" width=500>
+
+In this simulation, the un-backed extrusion bows by almost a full mm! In a V2.4 arrangement, with unbacked bottom rails on X and Y, you would expect almost 2 mm of deflection in the center of the bed — *10 layers!* In this case, we see the 3.2 mm backer reducing the total deflection by about 95%, and the MGN9 backer almost perfectly cancelling it out. 
+
+Take all of these simulation results with a giant grain of salt, please! We're collecting more data at a rapid clip.
 
 ### Sourcing
 
@@ -124,7 +131,7 @@ Before installing backers, he measures substantial deflection along Y, but littl
 ### Case study 3: mgn9 rail as extrusion backer
 
 bythorsthunder and BnE both are running V2.4 350mm machines with the MGN12 X-axis mod. 
-
+ 
 bythorsthunder had his original mgn9 X-axis rails laying around, and installed them on top of the Y axis extrusions to offset bowing induced by the bottom rails.
 
 BnE installed steel backers on Y.
@@ -142,3 +149,12 @@ In cassiespook's v1.8 (left), we can see the resulting deflection results in a s
 Yeri is running a single MGN12 on X, and although there is also some unexplained overall tilt apparent in the delta cold/hot mesh, we do see that X seems to be unbowed in Z, as we saw with the MGN12 V2s.
 
 <img src="./images/results/v1.8_results.png" width=800>
+
+
+### Case study 5: V2.4, Ti Y backers
+
+eecue is the first person to install titanium backers on Y. This one is an interesting case in that the initial mesh probing sequence was quite extensive, which appears to have led the X extrusion to warm substantially over the course of the pre-mesh, leading to an apparent 'tilt' in Y. Also intersting is that the X extrusion seems to not show much deflection, despite having 2 unbacked MGN9s. 
+
+The post-install comparison though shows quite stable axes in both X and Y with a faster 7x7 mesh probe sequence, indicating that the backers seem to be doing the trick.
+
+<img src="./images/results/eecue_results.png" width=800>
