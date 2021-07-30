@@ -122,6 +122,27 @@ def send_gcode(cmd='', retries=1):
             return True
     return False
 
+def query_xy_middle():
+    resp = get(BASE_URL + '/printer/objects/query?configfile').json()
+    config = resp['result']['status']['configfile']['settings']
+
+    x_min = config['stepper_x']['position_min']
+    x_max = config['stepper_x']['position_max']
+    y_min = config['stepper_y']['position_min']
+    y_max = config['stepper_y']['position_max']
+
+    x_mid = x_max - (x_max-x_min)/2
+    y_mid = y_max - (y_max-y_min)/2
+
+    return [x_mid, y_mid]
+
+def park_head_center():
+    xy_coords = query_xy_middle()
+    send_gcode_nowait("G1 Z10 F300")
+
+    park_cmd = "G1 X%.1f Y%.1f F18000" % (xy_coords[0], xy_coords[1])
+    send_gcode_nowait(park_cmd)
+
 def set_bedtemp(t=0):
     temp_set = False
     cmd = 'SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=%.1f' % t
@@ -176,7 +197,7 @@ def take_bed_mesh():
     send_gcode_nowait(cmd)
 
     mesh = query_bed_mesh()
-
+    park_head_center()
     return(mesh)
 
 def query_bed_mesh(retries=60):
@@ -268,6 +289,7 @@ def measure():
             print('%i/%i...' % (n+1, N_SAMPLES), end='', flush=True)
             temps.append(collect_datapoint(index))
         index += 1
+        park_head_center()
         print('DONE', " "*20)
     else:
         t_minus = ((last_measurement + timedelta(minutes=MEASURE_INTERVAL))-now).seconds
@@ -302,7 +324,7 @@ def main():
 
     set_bedtemp(BED_TEMPERATURE)
     set_hetemp(HE_TEMPERATURE)
-
+    park_head_center()
     wait_for_bedtemp()
 
     # Take cold mesh    
