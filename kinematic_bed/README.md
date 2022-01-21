@@ -24,9 +24,9 @@ As you can see in the diagram, because contact point 1 is constrained in all thr
 
 ### Maxwell's kinematic coupling
 
-Maxwell's kinematic coupling is similar to Kelvin's coupling, except that each point of contact constraints two degrees of freedom. This usually takes the form of three sets of parallel pins or angled faces on thing B, oriented radially around the center, each making two points of contact with a sphere on thing A. As you can see in the diagram, this means there are now 2 + 2 + 2 = 6 total constraints, and we are exactly constrained, as with the Kelvin coupling.
+Maxwell's kinematic coupling is similar to Kelvin's coupling, except that each point of contact constrains two degrees of freedom. This usually takes the form of three sets of parallel pins or angled faces on thing B, oriented radially around the center, each making two points of contact with a sphere on thing A. As you can see in the diagram, this means there are now 2 + 2 + 2 = 6 total constraints, and we are exactly constrained, as with the Kelvin coupling.
 
-Unlike the Kelvin coupling, though, *each* contact point is now free to move along one (and only one) axis as thing A expands relative to thing B. That means that the stationary point is no longer one of the contact points, but is instead some place in between the three contacts. If the three contact points are arranged at 120° to one another, the stationary point will be precisely at the intersection of the three parallel contacts. This is a useful characteristic if you want to mount something like an optical element precisely in the center of a base, and is thus the most typical arrangement for Kelvin style couplings. 
+Unlike the Kelvin coupling, though, *each* contact point is now free to move along one (and only one) axis as thing A expands relative to thing B. That means that the stationary point is no longer one of the contact points, but is instead some place in between the three contacts. If the three contact points are arranged at 120° to one another, the stationary point will be precisely at the intersection of the three parallel contacts. This is a useful characteristic if you want to mount something like an optical element precisely in the center of a base, and is thus the most typical arrangement for Maxwell style couplings. 
 
 ### Kinematic couplings on 3D printers
 
@@ -187,15 +187,15 @@ Now, thread the spherical nut on until it bottoms out on the hex nut. This can b
 
 ### Step 2: Assemble front mount
 
-First, sandwich two M5x16 dowel pins together and secure with M3x8 BHCS nuts. Tighten maybe 1/2 turn past finger snug. Don't overtighten -- you don't want to strip the aluminum threads!
+First, sandwich two M5x16 dowel pins together and secure with M3x8 BHCS nuts. Tighten maybe 1/2 turn past finger snug. Don't overtighten--you don't want to strip the aluminum threads!
 
 <img src="./Images/front_sandwich.png" width=400>
 
-Next, use the M3x12 BHCS to loosely attach a hammer tnut as shown.
+Next, use the M3x14 BHCS to loosely attach a hammer tnut as shown.
 
 <img src="./Images/front_tnuts.png" width=400>
 
-Finally, line the bottom front piece square against the front edge of the extrusion. Use the existing channel nut from the stock mounts for the other M3x12 BHCS, then tighten both of them.
+Finally, line the bottom front piece square against the front edge of the extrusion. Use the existing channel nut from the stock mounts for the other M3x14 BHCS, then tighten both of them.
 
 <img src="./Images/front_attach.png" width=400>
 
@@ -206,7 +206,7 @@ Repeat for other side.
 
 The rear mount has some pilot holes cut on the flanges. If you want, you can drill these out with a 2.5 mm bit and tap with M3 to attach wago mounts or other things.
 
-Make a sandwich with the M5x16 dowel pins as shown, using 4 M3x10 BHCS and M3 hex nuts.
+Make a sandwich with the M5x16 dowel pins as shown, using 4 M3x8 BHCS. Careful not to overtighten. 
 
 <img src="./Images/back_sandwich.png" width=400>
 
@@ -236,7 +236,7 @@ You may find that printing three of the "install helpers" will help with this. T
 
 You press the bed down until you're sure the spherical nuts are all indexed against the pins, then tighten the M3x8 BHCS to fix the rear mount. 
 
-If you used the install helper print, remove it now.
+If you used the install helper printed part, remove it now.
 
 ### Step 5: Preload leaf springs
 
