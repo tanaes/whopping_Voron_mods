@@ -139,7 +139,9 @@ Here are some options:
 
 #### Make them yourself
 
-I've included a BOM with links to the parts I used, as well as the CAD models and DXFs for laser cutting and bending. In the US, SendCutSend will do both the laser cutting and the bending at very reasonable cost.
+I've included a BOM with links to the parts I used, as well as the CAD models and DXFs for laser cutting and bending*. In the US, SendCutSend will do both the laser cutting and the bending at very reasonable cost.
+
+\* ***Note: working on organizing and uploading these bits. ETA Feb 3.***
 
 #### Purchase a kit
 
