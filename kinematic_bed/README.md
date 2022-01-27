@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- <h3>[Theory](#theory)</h3>
+- <h3>[Theory](#the-theory)</h3>
 - <h3>[The mounts](#wp_mounts)</h3>
 	- [Features](#features)
 	- [The data](#data)
@@ -12,7 +12,8 @@
 - <h3>[Assembly instructions](#assembly)</h3>
 - <h3>[Use with mods](#mods)</h3>
 
-## <a name="theory"></a>The theory
+
+## The theory
 
 Kinematic couplings are a really neat engineering solution to two problems associated with precisely connecting thing A to thing B:
 
