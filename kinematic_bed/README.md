@@ -2,15 +2,15 @@
 
 ## Table of Contents
 
-- <h3>[Theory](#the-theory)</h3>
-- <h3>[The mounts](#wp_mounts)</h3>
+- [Theory](#the-theory)
+- [The mounts](#Laser-cut-kinematic-mounts)
 	- [Features](#features)
 	- [The data](#data)
 	- [Do I need them?](#do_i_need)
 	- [Where to get](#where_to_get)
 	- [Alternatives](#alternatives)
-- <h3>[Assembly instructions](#assembly)</h3>
-- <h3>[Use with mods](#mods)</h3>
+- [Assembly instructions](#assembly)
+- [Use with mods](#mods)
 
 
 ## The theory
