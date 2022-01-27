@@ -285,6 +285,10 @@ Tighten the preload screw down until you're happy with it. If you pre-bent the s
 
 This should be plenty to keep the bed securely in place, even when flipping the machine over; but not so much that the balls can't move with thermal expansion of the bed. ***Do not tighten the preload screw all the way down!***
 
+### Step 6: lengthen z stop
+
+The kinematic mount raises the bed up by about around 8mm, so you'll want to also extend the Z endstop by about that amount, depending on your setup. 
+
 
 ## Mods
 
