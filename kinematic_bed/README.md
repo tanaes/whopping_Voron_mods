@@ -3,11 +3,11 @@
 ## Table of Contents
 
 - [Theory](#the-theory)
-- [The mounts](#Laser-cut-kinematic-mounts)
+- [The mounts](#laser-cut-kinematic-mounts)
 	- [Features](#features)
-	- [The data](#data)
-	- [Do I need them?](#do_i_need)
-	- [Where to get](#where_to_get)
+	- [The data](#the-data)
+	- [Do I need them?](#do-i-need-them)
+	- [Where to get](#but-i-want-them)
 	- [Alternatives](#alternatives)
 - [Assembly instructions](#assembly)
 - [Use with mods](#mods)
@@ -69,7 +69,7 @@ That tilt often seemed to disappear when loosening all four screws, suggesting t
 
 Let's fix that!
 
-## <a name="wp_mounts"></a> Laser-cut kinematic mounts
+## Laser-cut kinematic mounts
 
 Here is my take on a Maxwell-style kinematic mount for the Voron 2.4 bed:
 
@@ -84,7 +84,7 @@ Beyond simple functionality, I had a few things I wanted to achieve with these m
 
 After a lot of design and experimentation, and a few rounds of beta testing, this is the result! 
 
-### <a name="features"></a>Features
+### Features
 
 - **Maxwell-style laser-cut mount.** Maxwell-style mounts are challenging to machine manually, but a cinch to do on a laser cutter. These mounts use two laser-cut aluminum pieces to clamp steel dowel pins for each parallel contact point.
 - **Positive bed retention using leaf springs.** By using laser-cut leaf springs to preload the bed against each mount, we can be sure that the bed is retained in the event of a Z axis inversion. Also: logo, natch.
@@ -92,7 +92,7 @@ After a lot of design and experimentation, and a few rounds of beta testing, thi
 - **Just 8mm loss of Z.** The whole stack moves the bed up about 8mm. 
 - **Compatibility with stock Z endstop location.** Adding cutouts in the rear support piece allows us to install without moving the Z endstop to the other side of the extrusion, and is also compatible with other popular mods with hopefully minimal redesign necessary.
 
-### <a name="data"></a>The data
+### The data
 
 To test the mounts, I used my and Alch3my's measure_thermal_behavior.py script to take bed meshes before and after heating the bed. The protocol homes, does a QGL on the cold bed, homes again, and then takes a mesh of the cold bed. It then heats the bed, lets it soak for five minutes, and takes another mesh with the bed hot. (I leave the doors open to minimize the potential impact of frame heating on results.) The heatmaps below show the *change* in the mesh from a cold bed to a hot bed.
 
@@ -132,7 +132,7 @@ In one case, where the printer is using a rolled rather than cast aluminum build
 Our interpretation is that cast aluminum plates really are more dimensionally stable when heated, and the rolled plate on this printer is twisting as it heats. I'm very interested in pursuing more data comparing rolled and cast build plates to see if this is consistent!
 
 
-### <a name="do_i_need"></a>Do I need them?
+### Do I need them?
 
 No! Obviously people have been making beautiful prints on V2.4s for years. You do not *need* kinematic mounts. Furthermore, unlike the case of bimetallic expansion in the gantry, which takes a very long time to heat soak to the point where a bed mesh can fully compensate for it, the majority of the bed deflection from overconstraint likely occurs as the bed heats up, and hence can be corrected for with a mesh taken after heating. It also appears to generally be of lower absolute magnitude than the effect observed from bimetallic expansion.
 
@@ -144,7 +144,7 @@ You might still find that they offer some benefits, though.
 
 **Bed tacos???** Some suggest that the stresses induced from overconstraint when heating could actually result in permanent deformation of the build plate. I don't buy that, personally: the actual predicted stresses in the plate and extrusions are *well* below the point of plastic deformation in the material, so should not in theory result in permantent deformation. However, if it's something you're concerned with, a kinematic mount should definitely circumvent the potential for this kind of thing. 
 
-### <a name="where_to_get"></a>But I *want* them
+### But I *want* them
 
 Me too! 
 
@@ -175,7 +175,7 @@ UK:
 
 - [Printyplease](https://www.printyplease.uk/Kinematic2.4)
 
-### <a name="alternatives"></a>Alternatives
+### Alternatives
 
 There is more than one way to feed a cat!
 
@@ -186,7 +186,7 @@ There are other non-kinematic approaches that may also work well. Compliant moun
 Plastic standoffs may also work similarly. Printed high-temperature plastic standoffs, in conjunction with PEEK screws, could very well do the trick, as they are strong but still more flexible than aluminum. FEA simulation results indeed show decreased deformation versus steel mounts, and I have seen one dataset so far showing a substantial improvement and one dataset showing little improvement. I hope to collect more data from this arrangement and update this soon!
 
 
-## <a name="assembly"></a>Assembly
+## Assembly
 
 
 ### Step 1: Assemble bed mounts
@@ -268,7 +268,7 @@ Tighten the preload screw down until you're happy with it. If you pre-bent the s
 This should be plenty to keep the bed securely in place, even when flipping the machine over; but not so much that the balls can't move with thermal expansion of the bed. ***Do not tighten the preload screw all the way down!***
 
 
-## <a name="mods"></a>Mods
+## Mods
 
 I tried hard to make the design as compatible with different popular mods as possible. Below is a list of known compatibility issues and/or solutions. 
 
