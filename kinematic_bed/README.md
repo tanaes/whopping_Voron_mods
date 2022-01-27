@@ -188,6 +188,24 @@ Plastic standoffs may also work similarly. Printed high-temperature plastic stan
 
 ## Assembly
 
+### Step 0: Drill center hole in bed
+
+If you are running a stock V2 bed, you may need to add a rear center hole. Fortunately, this is pretty easy to do with a hand drill and some care. You will need:
+
+- Drill or drill press
+- 3.4 mm (or 1/8") drill bit for clearance hole
+- 6 mm (or 1/4") drill bit for counterbore
+- [drill guide STL](./STLs/drill_guide.stl)
+- some tape
+
+First, disassemble bed and disconnect all electrical connections. Place the bed upside down on a piece of scrap wood that you don't mind drilling into.
+
+Print off the drill guide, and affix it to the bottom back edge of the bed. Use some M3 screws and hex nuts to clamp it to the standard V2 mounting slots.  Using the 3.4 mm drill bit, drill a hole through the plate at the center hole. Be careful to keep the drill perpendicular to the plate!
+
+Now, flip the plate over to drill the counterbore. Change to the 6mm drill. Measure 4mm up from the corner of the drill bit and wrap the piece of tape around the bit. This will be your stopping depth.
+
+Carefully drill down from the top, using the 3.4 mm hole as a pilot. This should automatically center the larger bit, but take it slow. Stop once the tape hits the top of the plate, and test the depth with an M3 SHCS. 
+
 
 ### Step 1: Assemble bed mounts
 
