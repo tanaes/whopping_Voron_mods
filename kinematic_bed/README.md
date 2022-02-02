@@ -165,7 +165,7 @@ US:
 - [DFH](https://deepfriedhero.in/products/voron-v2-kinetic-bed-mounts-by-whoppingpochard)
 - [Fabreeko](https://www.fabreeko.com/products/voron-v2-4-kinematic-mounts?_pos=1&_sid=16d0c8dee&_ss=r)
 - [West3D](https://www.west3d.com)
-- [3Dmakerparts](https://3dmakerparts.com)
+- [3Dmakerparts](https://3dmakerparts.com/products/voron-2-4-kinematic-bed-mount)
 
 EU:
 
@@ -287,7 +287,9 @@ This should be plenty to keep the bed securely in place, even when flipping the 
 
 ### Step 6: lengthen z stop
 
-The kinematic mount raises the bed up by about around 8mm, so you'll want to also extend the Z endstop by about that amount, depending on your setup. 
+The kinematic mount raises the bed up by about around 8mm, so you'll want to also extend the Z endstop by about that amount, depending on your setup.
+
+
 
 
 ## Mods
@@ -295,7 +297,7 @@ The kinematic mount raises the bed up by about around 8mm, so you'll want to als
 I tried hard to make the design as compatible with different popular mods as possible. Below is a list of known compatibility issues and/or solutions. 
 
 - **Stock Z endstop**. Compatible. Needs longer pin by ~8mm.
-- **Sexbolt Z endstop**. Compatible. Needs longer male screw by ~8-10mm. May be able to just unscrew a bit and locktite existing screw.
+- **Sexbolt Z endstop**. Compatible. Needs longer male screw by ~8-10mm. See [STLs](./STLs/) folder for a modified version of the Sexbolt housing which allows you to easily swap to a longer M4 screw.
 - **Decontaminator purge bucket**. Requires a shorter right side bucket
   - [Dr_Dave's modified bucket](https://github.com/Dfdye/Voron_Mods/tree/main/Purge_Bucket_for_WP_Kinetic_Mount)
 - Any more suggestions?
