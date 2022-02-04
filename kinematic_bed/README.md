@@ -152,9 +152,7 @@ Here are some options:
 
 #### Make them yourself
 
-I've included a BOM with links to the parts I used, as well as the CAD models and DXFs for laser cutting and bending*. In the US, SendCutSend will do both the laser cutting and the bending at very reasonable cost.
-
-\* ***Note: working on organizing and uploading these bits. ETA Feb 3.***
+I've included a [BOM](./v24_kinematic_BOM.md) with links to the parts I used, as well as the CAD models and DXFs for laser cutting and bending. In the US, SendCutSend will do both the laser cutting and the bending at very reasonable cost (about $45 for a single set).
 
 #### Purchase a kit
 
