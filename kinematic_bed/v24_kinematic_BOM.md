@@ -2,7 +2,7 @@
 
 See below for parts and quantities, as well as order links. DXF letter corresponds to the filename in the [DXFs folder](./DXFs).
 
-For lasercut parts, A, C, and E are designed to be made in ~2 mm aluminum; parts B, D, and F in ~3 mm aluminum; and part G in ~28 ga spring steel. 
+For lasercut parts, A, C, and E are designed to be made in ~2 mm aluminum; parts B, D, and F in ~3 mm aluminum; and part G in ~28 ga spring steel. The SendCutSend link below will take you to a saved cart containing all of these parts ready to go, including bending, for about $45. 
 
 **Note: some links below are affiliate links. All revenue from affiliate sales on this page will be donated to Voron Design.**
 
@@ -15,10 +15,10 @@ For lasercut parts, A, C, and E are designed to be made in ~2 mm aluminum; parts
 | 4 | - | M3x12 BHCS (ISO7380) | fastener | stainless steel | [Amazon](https://amzn.to/3GoZDHl) |
 | 3 | - | M3x8 SHCS (ISO4762) | fastener | stainless steel | [Amazon](https://amzn.to/3L6h8Qp) |
 | 3 | - | M3x6 SHCS (ISO4762) | fastener | stainless steel | [Amazon](https://amzn.to/3L6h8Qp) |
-| 1 | A | Front right top | laser cut | aluminum | [SendCutSend](https://sendcutsend.com) |
-| 1 | B | Front right bottom | laser cut | aluminum | [SendCutSend](https://sendcutsend.com) |
-| 1 | C | Front left top | laser cut | aluminum | [SendCutSend](https://sendcutsend.com) |
-| 1 | D | Front left bottom | laser cut | aluminum | [SendCutSend](https://sendcutsend.com) |
-| 1 | E | Back top | laser cut | aluminum | [SendCutSend](https://sendcutsend.com) |
-| 1 | F | Back bottom | laser cut | aluminum | [SendCutSend](https://sendcutsend.com) |
-| 3 | G | Spring | laser cut | spring steel | [SendCutSend](https://sendcutsend.com) |
+| 1 | A | Front right top | laser cut | aluminum | [SendCutSend](https://cart.sendcutsend.com/qjmy2t9lnrqs) |
+| 1 | B | Front right bottom | laser cut | aluminum | [SendCutSend](https://cart.sendcutsend.com/qjmy2t9lnrqs) |
+| 1 | C | Front left top | laser cut | aluminum | [SendCutSend](https://cart.sendcutsend.com/qjmy2t9lnrqs) |
+| 1 | D | Front left bottom | laser cut | aluminum | [SendCutSend](https://cart.sendcutsend.com/qjmy2t9lnrqs) |
+| 1 | E | Back top | laser cut | aluminum | [SendCutSend](https://cart.sendcutsend.com/qjmy2t9lnrqs) |
+| 1 | F | Back bottom | laser cut | aluminum | [SendCutSend](https://cart.sendcutsend.com/qjmy2t9lnrqs) |
+| 3 | G | Spring | laser cut | spring steel | [SendCutSend](https://cart.sendcutsend.com/qjmy2t9lnrqs) |
