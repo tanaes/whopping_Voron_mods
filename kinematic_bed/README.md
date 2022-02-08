@@ -186,6 +186,8 @@ Plastic standoffs may also work similarly. Printed high-temperature plastic stan
 
 ## Assembly
 
+You will need to reuse the 4 hammer tnuts from the original bed mount as you need 8 tnuts in total to secure the new kinetic mounts to the frame so make sure you have these to hand during step 2 and 3.
+
 ### Step 0: Drill center hole in bed
 
 If you are running a stock V2 bed, you may need to add a rear center hole. Fortunately, this is pretty easy to do with a hand drill and some care. You will need:
@@ -235,7 +237,7 @@ Repeat for other side.
 
 ### Step 3: Assemble rear mount
 
-The rear mount has some pilot holes cut on the flanges. If you want, you can drill these out with a 2.5 mm bit and tap with M3 to attach wago mounts or other things.
+The rear mount has some M3 threaded holes on the flanges. If you want, you can use an M3 nuts to attach wago mounts or other things.
 
 Make a sandwich with the M5x16 dowel pins as shown, using 4 M3x8 BHCS. Careful not to overtighten. 
 
@@ -298,6 +300,7 @@ I tried hard to make the design as compatible with different popular mods as pos
 - **Sexbolt Z endstop**. Compatible. Needs longer male screw by ~8-10mm. See [STLs](./STLs/) folder for a modified version of the Sexbolt housing which allows you to easily swap to a longer M4 screw.
 - **Decontaminator purge bucket**. Requires a shorter right side bucket
   - [Dr_Dave's modified bucket](https://github.com/Dfdye/Voron_Mods/tree/main/Purge_Bucket_for_WP_Kinetic_Mount)
+- **Wago Mount** See [STLs](./STLs/) folder for a mod that will attach your wagos to the rear kinematic mount using two M3 nuts. This can be mounted either side but mounting inboard (towards the bed) is reccomended.
 - Any more suggestions?
 
   
