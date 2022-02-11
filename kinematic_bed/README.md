@@ -154,6 +154,8 @@ Here are some options:
 
 I've included a [BOM](./v24_kinematic_BOM.md) with links to the parts I used, as well as the CAD models and DXFs for laser cutting and bending. In the US, SendCutSend will do both the laser cutting and the bending at very reasonable cost (about $45 for a single set).
 
+**Note: this design relies on the stock 150 mm bed support extrusion spacing. There have been reports of some AliExpress kits shipping beds with different mount spacing. Please check your printer before ordering!**
+
 #### Purchase a kit
 
 I have contracted with a manufacturer to offer kits, which I am making available through various Voron-trusted resellers. Unlike with extrusion backers, I am making a small profit off of these kits. If you'd like to support us, you can grab one from any of the following vendors:
