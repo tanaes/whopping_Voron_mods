@@ -271,6 +271,16 @@ You press the bed down until you're sure the spherical nuts are all indexed agai
 
 If you used the install helper printed part, remove it now.
 
+### Step 4b: Double check clearances
+
+Some users have reported an interference between the wiring bump in their bed heater and the forward-most screw head of the rear mount (circled below).
+
+<img src="./Images/back_attach-interference.png" width=400>
+
+This primarily seems to be the case for edge-to-edge format heaters.
+
+Check to make sure that your heater isn't contacting the any of the screw heads. If it is, you can use a slightly longer M3 SHCS to attach the ball nut, and add another or a thicker hex nut between the bed and the spring, giving the heater just a little bit more room to clear that screw head.
+
 ### Step 5: Preload leaf springs
 
 The bed is now kinematically coupled to the frame. It should feel *very* secure, with no wiggle in lateral motion. However, it is only being held in place by gravity at this point.
@@ -298,6 +308,7 @@ I tried hard to make the design as compatible with different popular mods as pos
 
 - **Stock Z endstop**. Compatible. Needs longer pin by ~8mm.
 - **Sexbolt Z endstop**. Compatible. Needs longer male screw by ~8-10mm. See [STLs](./STLs/) folder for a modified version of the Sexbolt housing which allows you to easily swap to a longer M4 screw.
+- **Endstop riser mount**. Raises the stock endstop up by 8mm, allowing it to be used without cutting a longer pin. Requires the endstop be positioned on the outside of the bed extrusions. From [Dr. Dave](https://github.com/Dfdye/Voron_Mods/blob/main/Purge_Bucket_for_WP_Kinetic_Mount/STLs/Z-Endstop_Riser_for_Kinematic_Mount.stl). 
 - **Decontaminator purge bucket**. Requires a shorter right side bucket
   - [Dr_Dave's modified bucket](https://github.com/Dfdye/Voron_Mods/tree/main/Purge_Bucket_for_WP_Kinetic_Mount)
 - Any more suggestions?
