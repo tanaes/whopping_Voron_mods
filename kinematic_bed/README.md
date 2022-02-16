@@ -209,9 +209,9 @@ Now, flip the plate over to drill the counterbore. Change to the 6mm drill. Meas
 Carefully drill down from the top, using the 3.4 mm hole as a pilot. This should automatically center the larger bit, but take it slow. Stop once the tape hits the top of the plate, and test the depth with an M3 SHCS. 
 
 
-### Step 1: Assemble bed mounts
+### Step 1: Assemble spherical bed mounts
 
-Attach the leaf spring to each of the three mount points on the bed (front left and right standard V2 mount points, rear center mount point) using an apporpriate length M3 SHCS for your bed and one of the included thin hex nuts, as shown. There should be 2 to 3 mm of threads protruding from the hex nut. The nut should be pretty tight. 
+Attach the leaf spring to each of the three mount points on the bed (front left and right standard V2 mount points, rear center mount point) using an apporpriate length M3 SHCS for your bed and one of the included thin hex nuts, as shown. There should be 2 to 3 mm of threads protruding from the hex nut. (**Note: the kit ships with M3x8 SHCS, appropriate for the BOM 6-8 mm beds. For thicker beds, you may need to swap out for an M3x10 SHCS.**) The nut should be pretty tight. 
 
 <img src="./Images/spring_attach.png" width=400>
 
