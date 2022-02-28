@@ -190,6 +190,8 @@ Plastic standoffs may also work similarly. Printed high-temperature plastic stan
 
 You will need to reuse the 4 hammer tnuts from the original bed mount as you need 8 tnuts in total to secure the new kinetic mounts to the frame so make sure you have these to hand during step 2 and 3.
 
+You may want to print the three `sandwich_spacer` STLs to assist in assembling the mounts. These are set to be 0.2mm shorter than the space between the metal plates, and will help avoid overtightening the screws and deforming the mounts, which can affect performance. (Also a nice way to add at a touch of contrasting color!)
+
 ### Step 0: Drill center hole in bed
 
 If you are running a stock V2 bed, you may need to add a rear center hole. Fortunately, this is pretty easy to do with a hand drill and some care. You will need:
@@ -225,6 +227,11 @@ Now, thread the spherical nut on until it bottoms out on the hex nut. This can b
 First, sandwich two M5x16 dowel pins together and secure with M3x8 BHCS nuts. Tighten maybe 1/2 turn past finger snug. Don't overtighten--you don't want to strip the aluminum threads!
 
 <img src="./Images/front_sandwich.png" width=400>
+
+If using the printed spacers, add those to the sandwich as well:
+
+<img src="./Images/sandwich_spacer.png" width=400>
+
 
 Next, use the M3x14 BHCS to loosely attach a hammer tnut as shown.
 
