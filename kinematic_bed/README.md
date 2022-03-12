@@ -167,6 +167,11 @@ US:
 - [West3D](https://www.west3d.com)
 - [3Dmakerparts](https://3dmakerparts.com/products/voron-2-4-kinematic-bed-mount)
 
+Canada:
+
+- [RNDKBD](https://rndkbd.com/collections/voron-3d-printer-parts)
+ 
+
 EU:
 
 - [Lecktor](https://lecktor.com/en/v2x-buildplate/1032-kinematic-mount.html)
