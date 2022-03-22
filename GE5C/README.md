@@ -1,4 +1,4 @@
-# Quick GE5C bearing mod
+# Fivehead GE5C bearing mod
 
 
 <img src="./Images/overview.png" width=400>
