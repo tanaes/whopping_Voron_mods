@@ -1,4 +1,9 @@
-# Stock GE5C bearing mod	
+# Quick GE5C bearing mod
+
+
+<img src="./Images/overview.png" width=400>
+
+	
 This is a just a little mod to quickly and easily swap out the stock Z bearing blocks for GE5C-style spherical bearings. 
 
 It is based (obviously) on Hartk's awesome [GE5C mod](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron2.4_GE5C), but with a small change: it positions the bearings above the carriage block, allowing the M5 SHCS to be positioned precisely below the stock M5 screw location. Otherwise, the GE5C bearings stick out *just a bit* and interfere with the carriage.
