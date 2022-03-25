@@ -22,7 +22,7 @@ That's it! That's all it is.
 
 - 4x GE5C bearings
 - 4x M3x16 BHCS (to replace the M3x30 in the stock assembly)
-- 4x M3x25 SHCS (to attach the GE5C bearing)
+- 4x M5x25 SHCS (to attach the GE5C bearing)
 - 12x 1mm M5 shim washers (to space the GE5C away from the belt clamps
 
 <img src="./Images/screws_comparison.png" width=500>
