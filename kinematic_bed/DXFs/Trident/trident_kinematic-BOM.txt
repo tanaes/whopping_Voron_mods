@@ -1,0 +1,20 @@
+Qty	DXF	Part Number	Category	Material	Thickness	
+1	A	Left bearing plate	laser cut	6061 Aluminum	3mm	deburred, tapped, countersunk, bead blasted, anodized
+1	B	Right bearing plate	laser cut	6061 Aluminum	3mm	deburred, tapped, countersunk, bead blasted, anodized
+1	C	Left top	laser cut	6061 Aluminum	2mm	deburred, tapped, bead blasted, anodized
+1	D	Right top	laser cut	6061 Aluminum	2mm	deburred, tapped, bead blasted, anodized
+1	E	Left bottom	laser cut	6061 Aluminum	3mm	deburred, tapped, bead blasted, anodized
+1	F	Right bottom	laser cut	6061 Aluminum	3mm	deburred, tapped, bead blasted, anodized
+1	G	Back bottom	laser cut	6061 Aluminum	3mm	deburred, tapped, countersunk, bead blasted, anodized
+1	H	Back top	laser cut	6061 Aluminum	2mm	deburred, tapped, bead blasted, anodized
+3	I	Bearing retain	laser cut	6061 Aluminum	3mm	deburred, bead blasted, anodized
+3	J	Leaf_spring	laser cut	spring steel	28 ga	bent
+6		M5x20 dowel pin (ISO 2338-m6 / DIN 7 / DIN EN ISO 8734)	fastener	Stainless steel		
+6		M3x8 BHCS (ISO 7380)	fastener	Stainless steel		
+22		M3x6 BHCS (ISO 7380)	fastener	Stainless steel		
+6		M3x12 BHCS (ISO 7380)	fastener	Stainless steel		
+3		M3x8 SHCS (ISO4762)	fastener	Stainless steel		
+4		M5x8 FHCS (ISO10642)	fastener	Stainless steel		
+1		M3x8 FHCS (ISO10642)	fastener	Stainless steel		
+3		M3 thin hex nut (ISO 4035)	fastener	Stainless steel		
+3		9mm M3 sphere nut	fastener	Chrome steel		
