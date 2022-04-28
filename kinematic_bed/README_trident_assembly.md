@@ -1,6 +1,4 @@
-# Laser cut kinematic bed mounts – Trident beta
-
-## Assembly
+# Trident kinematic mount assembly
 
 ### Step 0: Remove bed assembly from rails
 
@@ -107,11 +105,6 @@ Now you can reattach the whole bed assembly to the Z carriages using the origina
 
 
 ### Step 7: Fix Z endstop
-
-The beta run may interfere with your stock endstop location. You may need to shim it outwards from the extrusion a bit to clear the mount, or file away some of the aluminum there so it clears. 
-
-<img src="./Images/trident/z_stop_interference.png" width=400>
-
 
 You will also need to lengthen the endstop pin by about 8mm over stock. 
   
