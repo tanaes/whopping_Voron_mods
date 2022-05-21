@@ -165,7 +165,9 @@ US:
 - [DFH](https://deepfriedhero.in/products/voron-v2-kinetic-bed-mounts-by-whoppingpochard)
 - [Fabreeko](https://www.fabreeko.com/products/voron-v2-4-kinematic-mounts?_pos=1&_sid=16d0c8dee&_ss=r)
 - [West3D](https://www.west3d.com)
-- [3Dmakerparts](https://3dmakerparts.com/products/voron-2-4-kinematic-bed-mount)
+- 3D Maker Parts
+  - [Voron 2.4](https://3dmakerparts.com/products/voron-2-4-kinematic-bed-mount)
+  - [Voron Trident](https://3dmakerparts.com/products/voron-trident-kinematic-bed-mount)
 
 Canada:
 
