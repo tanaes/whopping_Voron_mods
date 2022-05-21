@@ -29,6 +29,9 @@ This should be enough to assemble one complete toolhead mount and two complete p
 
 I would be very grateful if you could fill out a feedback survey so I can improve the kit in the future!
 
+### CHANGE LOG
+- 2022-05-20: updated STLs to better match provided M2 heatset inserts
+
 ## Assembly
 
 ### Print parts
