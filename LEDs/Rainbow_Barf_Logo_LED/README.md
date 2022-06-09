@@ -23,13 +23,7 @@ Alternatively, you can have your own made from JLCPCB or another PCB prototyping
 
 ## What are the downsides?
 
-The primary downside is that the tiny addressable RGB LEDs needed for this PCB are only available in RGB, and not RGBW, format. It is difficult (though [not impossible](https://github.com/sonyhome/FAB_LED/issues/13)) to combine these in the same strip. That means, to run the RBLL4SB, you'll need to do one of three things:
-
-- use RGB (not RGBW) chips for the SB nozzle LEDs
-- control the nozzle LEDs and RBLL4SB using separate data pins
-- use a custom communication protocol that can hack the bitstream correctly
-
-I believe the latter solution is in-process at the [Klipper-led_effect](https://github.com/julianschill/klipper-led_effect) repository, which is what I recommend for controlling the RBLL4SB anyway! Woohoo!!
+None! You can now combine RGB and RGBW LEDs in the same string in Klipper! See [this pull request](https://github.com/Klipper3d/klipper/pull/5409). 
 
 
 ## How do I make the shiny?
