@@ -11,7 +11,7 @@ If you are running a stock V2 bed, you may need to add a rear center hole. Fortu
 - Drill or drill press
 - 3.4 mm (or 1/8") drill bit for clearance hole
 - 6 mm (or 1/4") drill bit for counterbore
-- [drill guide STL](./STLs/drill_guide.stl)
+- [drill guide STL](./STLs/drill_guide_standard.stl)
 - some tape
 
 First, disassemble bed and disconnect all electrical connections. Place the bed upside down on a piece of scrap wood that you don't mind drilling into.
