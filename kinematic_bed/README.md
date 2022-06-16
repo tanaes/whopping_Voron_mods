@@ -162,21 +162,33 @@ I have contracted with a manufacturer to offer kits, which I am making available
 
 US:
 
-- [DFH](https://deepfriedhero.in/products/voron-v2-kinetic-bed-mounts-by-whoppingpochard)
-- [Fabreeko](https://www.fabreeko.com/products/voron-v2-4-kinematic-mounts?_pos=1&_sid=16d0c8dee&_ss=r)
-- [West3D](https://www.west3d.com)
+- DFH
+  - [Voron 2.4](https://deepfriedhero.in/products/voron-v2-kinetic-bed-mounts-by-whoppingpochard)
+  - [Voron Trident](https://deepfriedhero.in/products/voron-trident-kinematic-bed-mount-by-whoppingpochard)
+- Fabreeko
+  - [Voron 2.4](https://www.fabreeko.com/products/voron-v2-4-kinematic-mounts?_pos=1&_sid=16d0c8dee&_ss=r)
+  - [Voron Trident](https://www.fabreeko.com/products/voron-trident-kinematic-bed-mount-by-whoppingpochard?_pos=2&_sid=d5a3b40d7&_ss=r)
+- West3D
+  - [Voron 2.4](https://west3d.com/products/kinematics-mount?_pos=1&_sid=9f6984b42&_ss=r)
+  - [Voron Trident](https://west3d.com/products/kinematics-mount-voron-trident?_pos=2&_sid=9f6984b42&_ss=r)
 - 3D Maker Parts
   - [Voron 2.4](https://3dmakerparts.com/products/voron-2-4-kinematic-bed-mount)
   - [Voron Trident](https://3dmakerparts.com/products/voron-trident-kinematic-bed-mount)
 
 Canada:
 
-- [RNDKBD](https://rndkbd.com/collections/voron-3d-printer-parts)
- 
+- RNDKBD
+  - [Voron 2.4 and Trident](https://rndkbd.com/collections/voron-3d-printer-parts)
+- 3D Lab Tech
+  - [Voron 2.4](https://www.3dlabtech.ca/product/kinematic-bed-mount-for-voron-2/)
+  - [Voron Trident](https://www.3dlabtech.ca/product/kinematic-bed-mount-for-voron-trident/)
 
 EU:
 
-- [Lecktor](https://lecktor.com/en/v2x-buildplate/1032-kinematic-mount.html)
+- [Lecktor]
+  - [Voron 2.4](https://lecktor.com/en/v2x-buildplate/1032-kinematic-mount-for-v24-01032.html)
+  - [Voron Trident](https://lecktor.com/en/vtd-misc/1141-kinematic-mount-for-trident-01141.html)
+
 
 UK:
 
