@@ -40,6 +40,8 @@ The PCB Klicky uses a hybrid printed part / PCB design. The plastic parts serve 
 
 For the beta, you will need one toolhead adapter (`AB_mount`) and two probe adapters (`probe`). There are STLs included for both M2 heatset and M2 self-tapping screw versions. STLs aren't oriented, please use your best judgement. 
 
+If you have the newer Klicky dock, with the rear-insertion magnet, you may want to print a new front piece with a front-facing magnet position that aligns better with the PCB klicky steel screw head (see `STLs/dock-front_insert.stl`). On my printer, this gives more reliable positioning of the detached probe.
+
 ### Modify PCB to fit your probe voltage
 
 PCB Klicky includes an indicator LED and current-limiting / pull-up resistor to ensure the rated current is passed over the microswitch. If having an exposed voltage rail on the bottom of your toolhead gives you the heebie-jeebies, you can just not connect the +V pin and it will function identically to a normal klicky probe.
@@ -140,4 +142,4 @@ With the probe in the dock, verify that it attaches and detaches successfully. T
 
 ### Tweak auto-Z offsets
  
-You will probably need to adjust your auto-Z offsets, if you have it set up. 
+You will probably need to adjust your auto-Z offsets, if you have it set up. 0
