@@ -192,7 +192,9 @@ EU:
 
 UK:
 
-- [Printyplease](https://www.printyplease.uk/Kinematic2.4)
+- [PrintyPlease]
+  - [Voron 2.4](https://www.printyplease.uk/KM2.4)
+  - [Voron Trident](https://www.printyplease.uk/TriKin)
 
 ### Alternatives
 
