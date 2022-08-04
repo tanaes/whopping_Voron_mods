@@ -12,7 +12,6 @@ The Rainbow Barf Logo LED is a small PCB, approximately the size of a typical si
 
 This gives you the possibility to programmatically address each part of the logo lighting independently! Imagine the possibilities!
 
-Once SB is out of beta testing, this repository will be updated with CAD and STLs for printing out the slightly different PCB carrier and diffuser you'll need to make it work with a StealthBurner toolhead -- and perhaps some others as well!
 
 ## Where can I get one?
 
