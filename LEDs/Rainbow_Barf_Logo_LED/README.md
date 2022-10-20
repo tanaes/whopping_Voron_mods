@@ -51,4 +51,4 @@ When soldered, PCB and wires can be tucked neatly into the carrier and inserted 
 
 ## How do I make the shiny?
 
-I will update this section with example code ~~soon~~ someday!
+Please checkout the [example config file](./Code/stealthburner_led_effects_barf.cfg) from Voron Discord user **ChristianN**! There are great instructions and macros within for creating logo LED animations using the [Klipper LED Effect](https://github.com/julianschill/klipper-led_effect) plugin.
