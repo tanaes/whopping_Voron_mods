@@ -79,6 +79,8 @@ Make sure to keep your polarities in order! I used the dissimilar orientation on
 
 I'm by no means sure this is optimal, but it seems to be working well for me!
 
+***TIP!!*** You can use an app on your phone to determine magnet polarity! This is useful in case you make up more probes later and want to make sure they match. [iOS link](https://apps.apple.com/us/app/kj-pole-id/id1323248335) / [Android link](https://play.google.com/store/apps/details?id=air.de.supermagnete.magnetapp&hl=en_US&gl=US&pli=1) (Thanks so much PF!!)
+
 ***NOTE:*** Make sure that the rear of the toolhead board doesn't extend past the back of the adapter part when attaching the magnets! This will prevent the adapter from sitting flush in the toolhead. You can place the assembled adapter back-down on a flat surface and loosen all three magnet screws to make sure.
 
 ### Insert ferrous flat-head screw into probe
