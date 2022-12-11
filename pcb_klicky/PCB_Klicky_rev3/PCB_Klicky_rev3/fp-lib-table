@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "digikey-footprints")(type "KiCad")(uri "/Users/jgs286/Documents/KiCad/6.0/github/digikey-kicad-library/digikey-footprints.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "/Users/jgs286/Documents/KiCad/6.0/footprints")(options "")(descr ""))
+  (lib (name "PCB_Klicky_KiCAD")(type "KiCad")(uri "E:/Dropbox/kicad/PCB_Klicky/PCB_Klicky_KiCAD")(options "")(descr ""))
+  (lib (name "D2F")(type "KiCad")(uri "${KIPRJMOD}/D2F.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,9 @@
+Comment,Designator,Footprint,LCSC
+300,R2,R_0603_1608Metric,C23025
+2K1,"R1,R3",R_0603_1608Metric,C4190
+LTST-C191TBKT,D1,D_0603_1608Metric,C99290
+B3B-XH-A_LF__SN_,J1,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,
+MountingHole_Pad,H6,MountingHole_2.7mm_Pad,
+MountingHole_Pad,H5,MountingHole_2.7mm_Pad,
+MountingHole_Pad,H4,MountingHole_2.7mm_Pad,
+SolderJumper_2_Open,JP1,SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,

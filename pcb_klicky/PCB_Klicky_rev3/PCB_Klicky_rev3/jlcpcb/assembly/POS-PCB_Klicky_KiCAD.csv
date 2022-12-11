@@ -1,0 +1,6 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+D1,LTST-C191TBKT,D_0603_1608Metric,103.1,-61.0125,-90.0,bottom
+J1,B3B-XH-A_LF__SN_,JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,103.1,-69.9,90.0,top
+R1,2K1,R_0603_1608Metric,109.65,-60.15,0.0,bottom
+R2,300,R_0603_1608Metric,109.65,-61.8,180.0,bottom
+R3,2K1,R_0603_1608Metric,105.55,-63.55,180.0,bottom
