@@ -327,6 +327,7 @@ I tried hard to make the design as compatible with different popular mods as pos
   - [Dr_Dave's modified bucket](https://github.com/Dfdye/Voron_Mods/tree/main/Purge_Bucket_for_WP_Kinetic_Mount)
 - **Wago Mount** See [STLs](./STLs/) folder for a mod that will attach your wagos to the rear kinematic mount using two M3 nuts. This can be mounted either side but mounting inboard (towards the bed) is reccomended.
 - **Euclid Probe** See [here](https://github.com/kx1999/Euclid_Probe/tree/whopping_kinematics/stls/Voron/whoppingpochard_kinematics) for modified Euclid docks to accommodate the Z offset.
+- **Voron TAP** Fuck around and find out. But seriously watch closely when running the bed mesh. You may need to tighten the leaf spring screws from step 5 a bit more.
 - Any more suggestions?
 
   
