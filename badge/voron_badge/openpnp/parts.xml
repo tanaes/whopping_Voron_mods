@@ -1,0 +1,80 @@
+<openpnp-parts>
+  <part id="FIDUCIAL-1X2-FIDUCIAL1X2" height-units="Millimeters" height="0.0" package-id="FIDUCIAL-1X2" speed="1.0" pick-retry-count="0" />
+  <part id="R0805-1K" height-units="Millimeters" height="1.0" package-id="R0805" speed="1.0" pick-retry-count="0" />
+  <part id="R0201-1K" height-units="Millimeters" height="0.25" package-id="R0201" speed="1.0" pick-retry-count="0" />
+  <part id="R0402-1K" height-units="Millimeters" height="0.5" package-id="R0402" speed="1.0" pick-retry-count="0" />
+  <part id="R0603-1K" height-units="Millimeters" height="0.75" package-id="R0603" speed="1.0" pick-retry-count="0" />
+  <part id="FIDUCIAL-HOME" height-units="Millimeters" height="0.0" package-id="FIDUCIAL-1X2" speed="1.0" pick-retry-count="0" />
+  <part fiducial-vision-id="FVS174d4363a01fea54" id="TEST-OBJECT" height-units="Millimeters" height="1.0" package-id="TEST-OBJECT" speed="1.0" pick-retry-count="0" />
+  <part id="LED_0603_1608Metric-LED_Small" height-units="Millimeters" height="0.5" package-id="LED_0603_1608Metric" speed="1.0" pick-retry-count="0" />
+  <part id="R_0603_1608Metric-R_Small" height-units="Millimeters" height="0.43" package-id="Fiducial_1mm_Mask3mm" speed="1.0" pick-retry-count="0" />
+  <part id="C_0805_2012Metric-100n" height-units="Millimeters" height="0.8" package-id="C_0805_2012Metric" speed="1.0" pick-retry-count="0" />
+  <part id="C_0805_2012Metric-4.7u" height-units="Millimeters" height="1.2" package-id="C_0805_2012Metric" speed="1.0" pick-retry-count="0" />
+  <part id="C_0805_2012Metric-10u" height-units="Millimeters" height="1.38" package-id="C_0805_2012Metric" speed="1.0" pick-retry-count="0" />
+  <part id="C_0805_2012Metric-2.2u" height-units="Millimeters" height="0.8" package-id="C_0805_2012Metric" speed="1.0" pick-retry-count="0" />
+  <part id="C_0805_2012Metric-22u" height-units="Millimeters" height="1.33" package-id="C_0805_2012Metric" speed="1.0" pick-retry-count="0" />
+  <part id="JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal-PH4" height-units="Millimeters" height="0.0" package-id="JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" speed="1.0" pick-retry-count="0" />
+  <part id="D_SOD-123-D_Schottky" height-units="Millimeters" height="1.15" package-id="D_SOD-123" speed="1.0" pick-retry-count="0" />
+  <part id="SK6812-MINI-E-SK6812MINI-E" height-units="Millimeters" height="1.4" package-id="SK6812-MINI-E" speed="1.0" pick-retry-count="0" />
+  <part id="LED_0603_1608Metric-LED" height-units="Millimeters" height="0.0" package-id="LED_0603_1608Metric" speed="1.0" pick-retry-count="0" />
+  <part id="R_0805_2012Metric-2A" height-units="Millimeters" height="0.8" package-id="R_0805_2012Metric" speed="1.0" pick-retry-count="0" />
+  <part id="Fiducial_1mm_Mask2mm-Fiducial" height-units="Millimeters" height="0.0" package-id="Fiducial_1mm_Mask2mm" speed="1.0" pick-retry-count="0" />
+  <part id="ColumnStud_M3-MountingHole_Pad" height-units="Millimeters" height="0.0" package-id="ColumnStud_M3" speed="1.0" pick-retry-count="0" />
+  <part id="USB_A_Jing_904-131A2032S10100-USB_A" height-units="Millimeters" height="0.0" package-id="USB_A_Jing_904-131A2032S10100" speed="1.0" pick-retry-count="0" />
+  <part id="JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal-Conn_01x02" height-units="Millimeters" height="0.0" package-id="JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" speed="1.0" pick-retry-count="0" />
+  <part id="voron_badge_edge_spring_pads-Conn_02x07_Counter_Clockwise" height-units="Millimeters" height="0.0" package-id="voron_badge_edge_spring_pads" speed="1.0" pick-retry-count="0" />
+  <part id="L_Sunlord_SWPA4020S-1uH" height-units="Millimeters" height="1.85" package-id="L_Sunlord_SWPA4020S" speed="1.0" pick-retry-count="0" />
+  <part bottom-vision-id="BVS1755ffab89db1f04" id="SOT-23-MMBT5401" height-units="Millimeters" height="1.0" package-id="SOT-23" speed="1.0" pick-retry-count="0" />
+  <part bottom-vision-id="BVS17560030a62e0470" id="R_0603_1608Metric-1M" height-units="Millimeters" height="0.43" package-id="R_0603_1608Metric" speed="1.0" pick-retry-count="0" />
+  <part bottom-vision-id="BVS17560030a62e0470" id="R_0603_1608Metric-10k" height-units="Millimeters" height="0.43" package-id="R_0603_1608Metric" speed="1.0" pick-retry-count="0" />
+  <part bottom-vision-id="BVS17560030a62e0470" id="R_0603_1608Metric-43k" height-units="Millimeters" height="0.43" package-id="R_0603_1608Metric" speed="1.0" pick-retry-count="0" />
+  <part bottom-vision-id="BVS17560030a62e0470" id="R_0603_1608Metric-51k" height-units="Millimeters" height="0.43" package-id="R_0603_1608Metric" speed="1.0" pick-retry-count="0" />
+  <part bottom-vision-id="BVS17560030a62e0470" id="R_0603_1608Metric-1k" height-units="Millimeters" height="0.43" package-id="R_0603_1608Metric" speed="1.0" pick-retry-count="0" />
+  <part bottom-vision-id="BVS17560030a62e0470" id="R_0603_1608Metric-100R" height-units="Millimeters" height="0.43" package-id="R_0603_1608Metric" speed="1.0" pick-retry-count="0" />
+  <part bottom-vision-id="BVS17560030a62e0470" id="R_0603_1608Metric-1R" height-units="Millimeters" height="0.43" package-id="R_0603_1608Metric" speed="1.0" pick-retry-count="0" />
+  <part bottom-vision-id="BVS17560030a62e0470" id="R_0603_1608Metric-100k" height-units="Millimeters" height="0.43" package-id="R_0603_1608Metric" speed="1.0" pick-retry-count="0" />
+  <part bottom-vision-id="BVS17560030a62e0470" id="R_0603_1608Metric-75k" height-units="Millimeters" height="0.43" package-id="R_0603_1608Metric" speed="1.0" pick-retry-count="0" />
+  <part id="LWLW-LWLW" height-units="Millimeters" height="0.0" package-id="LWLW" speed="1.0" pick-retry-count="0" />
+  <part id="ShouHan_TS24CA-SW_Push" height-units="Millimeters" height="1.91" package-id="ShouHan_TS24CA" speed="1.0" pick-retry-count="0" />
+  <part id="SOT-23-5-74LVC1G17" height-units="Millimeters" height="1.1" package-id="SOT-23-5" speed="1.0" pick-retry-count="0" />
+  <part id="RPi_Pico_SMD-RP2040" height-units="Millimeters" height="0.0" package-id="RPi_Pico_SMD" speed="1.0" pick-retry-count="0" />
+  <part id="Diodes_PSOP-8-IP3005A" height-units="Millimeters" height="1.5" package-id="Diodes_PSOP-8" speed="1.0" pick-retry-count="0" />
+  <part id="Diodes_PSOP-8-IP5306" height-units="Millimeters" height="1.5" package-id="Diodes_PSOP-8" speed="1.0" pick-retry-count="0" />
+  <part bottom-vision-id="BVS17560030a62e0470" id="LED_0603_1608Metric-LED_W" height-units="Millimeters" height="0.6" package-id="LED_0603_1608Metric" speed="1.0" pick-retry-count="0" />
+  <part bottom-vision-id="BVS17560030a62e0470" id="LED_0603_1608Metric-LED_R" height-units="Millimeters" height="0.6" package-id="LED_0603_1608Metric" speed="1.0" pick-retry-count="0" />
+  <part id="SpringContact_KH-302015-TP-SpringContact_KH-302015-TP" height-units="Millimeters" height="0.6" package-id="SpringContact_KH-302015-TP" speed="1.0" pick-retry-count="0" />
+  <part id="SOLDERJUMPER-2_P1.3MM_OPEN_TRIANGLEPAD1.0X1.5MM_SOLDERJUMPER_2_OPEN" name="SOLDERJUMPER-2_P1.3MM_OPEN_TRIANGLEPAD1.0X1.5MM_SOLDERJUMPER_2_OPEN" height-units="Millimeters" height="0.0" package-id="SOLDERJUMPER-2_P1.3MM_OPEN_TRIANGLEPAD1.0X1.5MM" speed="1.0" pick-retry-count="0" />
+  <part id="USB_A_JING_904-131A2032S10100_USB_A" name="USB_A_JING_904-131A2032S10100_USB_A" height-units="Millimeters" height="0.0" package-id="USB_A_JING_904-131A2032S10100" speed="1.0" pick-retry-count="0" />
+  <part id="SHOUHAN_TS24CA_SW_PUSH" name="SHOUHAN_TS24CA_SW_PUSH" height-units="Millimeters" height="0.0" package-id="SHOUHAN_TS24CA" speed="1.0" pick-retry-count="0" />
+  <part id="R_0603_51K" name="R_0603_51K" height-units="Millimeters" height="0.0" package-id="R_0603" speed="1.0" pick-retry-count="0" />
+  <part id="R_0603_1K" name="R_0603_1K" height-units="Millimeters" height="0.0" package-id="R_0603" speed="1.0" pick-retry-count="0" />
+  <part id="DIODES_PSOP-8_IP3005A" name="DIODES_PSOP-8_IP3005A" height-units="Millimeters" height="0.0" package-id="DIODES_PSOP-8" speed="1.0" pick-retry-count="0" />
+  <part id="SK6812-MINI-E_SK6812MINI-E" name="SK6812-MINI-E_SK6812MINI-E" height-units="Millimeters" height="0.0" package-id="SK6812-MINI-E" speed="1.0" pick-retry-count="0" />
+  <part id="R_0603_10K" name="R_0603_10K" height-units="Millimeters" height="0.0" package-id="R_0603" speed="1.0" pick-retry-count="0" />
+  <part id="C_0805_100N" name="C_0805_100N" height-units="Millimeters" height="0.0" package-id="C_0805" speed="1.0" pick-retry-count="0" />
+  <part id="R_0603_1M" name="R_0603_1M" height-units="Millimeters" height="0.0" package-id="R_0603" speed="1.0" pick-retry-count="0" />
+  <part id="JST_PH_S2B-PH-SM4-TB_1X02-1MP_P2.00MM_HORIZONTAL_CONN_01X02" name="JST_PH_S2B-PH-SM4-TB_1X02-1MP_P2.00MM_HORIZONTAL_CONN_01X02" height-units="Millimeters" height="0.0" package-id="JST_PH_S2B-PH-SM4-TB_1X02-1MP_P2.00MM_HORIZONTAL" speed="1.0" pick-retry-count="0" />
+  <part id="R_0603_1R" name="R_0603_1R" height-units="Millimeters" height="0.0" package-id="R_0603" speed="1.0" pick-retry-count="0" />
+  <part id="R_0603_75K" name="R_0603_75K" height-units="Millimeters" height="0.0" package-id="R_0603" speed="1.0" pick-retry-count="0" />
+  <part id="R_0603_43K" name="R_0603_43K" height-units="Millimeters" height="0.0" package-id="R_0603" speed="1.0" pick-retry-count="0" />
+  <part id="COLUMNSTUD_M3_MOUNTINGHOLE_PAD" name="COLUMNSTUD_M3_MOUNTINGHOLE_PAD" height-units="Millimeters" height="0.0" package-id="COLUMNSTUD_M3" speed="1.0" pick-retry-count="0" />
+  <part id="C_0805_22U" name="C_0805_22U" height-units="Millimeters" height="0.0" package-id="C_0805" speed="1.0" pick-retry-count="0" />
+  <part id="LED_0603_LED_W" name="LED_0603_LED_W" height-units="Millimeters" height="0.0" package-id="LED_0603" speed="1.0" pick-retry-count="0" />
+  <part id="LED_0603_LED_R" name="LED_0603_LED_R" height-units="Millimeters" height="0.0" package-id="LED_0603" speed="1.0" pick-retry-count="0" />
+  <part id="C_0805_10U" name="C_0805_10U" height-units="Millimeters" height="0.0" package-id="C_0805" speed="1.0" pick-retry-count="0" />
+  <part id="D_SOD-123_D_SCHOTTKY" name="D_SOD-123_D_SCHOTTKY" height-units="Millimeters" height="0.0" package-id="D_SOD-123" speed="1.0" pick-retry-count="0" />
+  <part id="FIDUCIAL_1X2" name="FIDUCIAL_1X2" height-units="Millimeters" height="0.0" package-id="FIDUCIAL_1X2" speed="1.0" pick-retry-count="0" />
+  <part id="SOT-23-5_74LVC1G17" name="SOT-23-5_74LVC1G17" height-units="Millimeters" height="0.0" package-id="SOT-23-5" speed="1.0" pick-retry-count="0" />
+  <part id="JST_SH_SM04B-SRSS-TB_1X04-1MP_P1.00MM_HORIZONTAL_PH4" name="JST_SH_SM04B-SRSS-TB_1X04-1MP_P1.00MM_HORIZONTAL_PH4" height-units="Millimeters" height="0.0" package-id="JST_SH_SM04B-SRSS-TB_1X04-1MP_P1.00MM_HORIZONTAL" speed="1.0" pick-retry-count="0" />
+  <part id="RPI_PICO_SMD_RP2040" name="RPI_PICO_SMD_RP2040" height-units="Millimeters" height="0.0" package-id="RPI_PICO_SMD" speed="1.0" pick-retry-count="0" />
+  <part id="DIODES_PSOP-8_IP5306" name="DIODES_PSOP-8_IP5306" height-units="Millimeters" height="0.0" package-id="DIODES_PSOP-8" speed="1.0" pick-retry-count="0" />
+  <part id="L_SUNLORD_SWPA4020S_1UH" name="L_SUNLORD_SWPA4020S_1UH" height-units="Millimeters" height="0.0" package-id="L_SUNLORD_SWPA4020S" speed="1.0" pick-retry-count="0" />
+  <part id="R_0603_100K" name="R_0603_100K" height-units="Millimeters" height="0.0" package-id="R_0603" speed="1.0" pick-retry-count="0" />
+  <part id="R_0805_2A" name="R_0805_2A" height-units="Millimeters" height="0.0" package-id="R_0805" speed="1.0" pick-retry-count="0" />
+  <part id="C_0805_2.2U" name="C_0805_2.2U" height-units="Millimeters" height="0.0" package-id="C_0805" speed="1.0" pick-retry-count="0" />
+  <part id="C_0805_4.7U" name="C_0805_4.7U" height-units="Millimeters" height="0.0" package-id="C_0805" speed="1.0" pick-retry-count="0" />
+  <part id="R_0603_100R" name="R_0603_100R" height-units="Millimeters" height="0.0" package-id="R_0603" speed="1.0" pick-retry-count="0" />
+  <part id="VORON_BADGE_EDGE_SPRING_PADS_CONN_02X07_COUNTER_CLOCKWISE" name="VORON_BADGE_EDGE_SPRING_PADS_CONN_02X07_COUNTER_CLOCKWISE" height-units="Millimeters" height="0.0" package-id="VORON_BADGE_EDGE_SPRING_PADS" speed="1.0" pick-retry-count="0" />
+  <part id="SOT-23_MMBT5401" name="SOT-23_MMBT5401" height-units="Millimeters" height="0.0" package-id="SOT-23" speed="1.0" pick-retry-count="0" />
+  <part id="SPRINGCONTACT_KH-302015-TP_SPRINGCONTACT_KH-302015-TP" name="SPRINGCONTACT_KH-302015-TP_SPRINGCONTACT_KH-302015-TP" height-units="Millimeters" height="0.0" package-id="SPRINGCONTACT_KH-302015-TP" speed="1.0" pick-retry-count="0" />
+</openpnp-parts>

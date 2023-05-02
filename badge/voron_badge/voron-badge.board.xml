@@ -1,0 +1,270 @@
+<openpnp-board version="1.1" name="voron_badge.kicad_pcb">
+  <dimensions units="Millimeters" x="90.1" y="135.1" z="0.0" rotation="0.0" />
+  <placements>
+    <placement version="1.4" id="JP7" side="Bottom" part-id="SOLDERJUMPER-2_P1.3MM_OPEN_TRIANGLEPAD1.0X1.5MM_SOLDERJUMPER_2_OPEN" type="Placement" enabled="true">
+      <location units="Millimeters" x="40.9681" y="0.4731" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="J1" side="Bottom" part-id="USB_A_JING_904-131A2032S10100_USB_A" type="Placement" enabled="true">
+      <location units="Millimeters" x="73.4381" y="86.1731" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="SW1" side="Bottom" part-id="SHOUHAN_TS24CA_SW_PUSH" type="Placement" enabled="true">
+      <location units="Millimeters" x="80.0681" y="98.9231" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="R21" side="Bottom" part-id="R_0603_51K" type="Placement" enabled="true">
+      <location units="Millimeters" x="63.8681" y="88.7731" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="R14" side="Bottom" part-id="R_0603_1K" type="Placement" enabled="true">
+      <location units="Millimeters" x="20.5731" y="123.9606" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="U3" side="Bottom" part-id="DIODES_PSOP-8_IP3005A" type="Placement" enabled="true">
+      <location units="Millimeters" x="47.4481" y="53.0381" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="D2" side="Bottom" part-id="SK6812-MINI-E_SK6812MINI-E" type="Placement" enabled="true">
+      <location units="Millimeters" x="46.6591" y="67.8969" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="R3" side="Bottom" part-id="R_0603_10K" type="Placement" enabled="true">
+      <location units="Millimeters" x="0.9681" y="32.9981" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="C11" side="Bottom" part-id="C_0805_100N" type="Placement" enabled="true">
+      <location units="Millimeters" x="43.8181" y="93.8731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="R7" side="Bottom" part-id="R_0603_1M" type="Placement" enabled="true">
+      <location units="Millimeters" x="4.0681" y="42.0731" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="J2" side="Bottom" part-id="JST_PH_S2B-PH-SM4-TB_1X02-1MP_P2.00MM_HORIZONTAL_CONN_01X02" type="Placement" enabled="true">
+      <location units="Millimeters" x="61.3681" y="56.1231" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="C12" side="Bottom" part-id="C_0805_100N" type="Placement" enabled="true">
+      <location units="Millimeters" x="40.0681" y="100.6731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="JP2" side="Bottom" part-id="SOLDERJUMPER-2_P1.3MM_OPEN_TRIANGLEPAD1.0X1.5MM_SOLDERJUMPER_2_OPEN" type="Placement" enabled="true">
+      <location units="Millimeters" x="60.9681" y="0.4481" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="R18" side="Bottom" part-id="R_0603_1R" type="Placement" enabled="true">
+      <location units="Millimeters" x="3.5719" y="46.2731" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="C4" side="Bottom" part-id="C_0805_100N" type="Placement" enabled="true">
+      <location units="Millimeters" x="40.9681" y="66.7731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="D12" side="Bottom" part-id="SK6812-MINI-E_SK6812MINI-E" type="Placement" enabled="true">
+      <location units="Millimeters" x="27.3407" y="101.3573" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="D10" side="Bottom" part-id="SK6812-MINI-E_SK6812MINI-E" type="Placement" enabled="true">
+      <location units="Millimeters" x="31.2044" y="94.6652" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="R23" side="Bottom" part-id="R_0603_75K" type="Placement" enabled="true">
+      <location units="Millimeters" x="63.8681" y="85.1731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="R20" side="Bottom" part-id="R_0603_43K" type="Placement" enabled="true">
+      <location units="Millimeters" x="63.8681" y="86.9731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="H2" side="Bottom" part-id="COLUMNSTUD_M3_MOUNTINGHOLE_PAD" type="Placement" enabled="true">
+      <location units="Millimeters" x="74.0" y="0.0" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="D11" side="Bottom" part-id="SK6812-MINI-E_SK6812MINI-E" type="Placement" enabled="true">
+      <location units="Millimeters" x="24.6091" y="74.5887" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="C21" side="Bottom" part-id="C_0805_22U" type="Placement" enabled="true">
+      <location units="Millimeters" x="7.9281" y="52.3231" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="D4" side="Bottom" part-id="SK6812-MINI-E_SK6812MINI-E" type="Placement" enabled="true">
+      <location units="Millimeters" x="49.3909" y="94.6652" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="JP5" side="Bottom" part-id="SOLDERJUMPER-2_P1.3MM_OPEN_TRIANGLEPAD1.0X1.5MM_SOLDERJUMPER_2_OPEN" type="Placement" enabled="true">
+      <location units="Millimeters" x="48.9681" y="0.4481" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="C1" side="Bottom" part-id="C_0805_100N" type="Placement" enabled="true">
+      <location units="Millimeters" x="22.7681" y="67.0731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="D14" side="Bottom" part-id="LED_0603_LED_W" type="Placement" enabled="true">
+      <location units="Millimeters" x="30.8631" y="123.9606" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="C22" side="Bottom" part-id="C_0805_22U" type="Placement" enabled="true">
+      <location units="Millimeters" x="10.0881" y="52.3231" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="C19" side="Bottom" part-id="C_0805_22U" type="Placement" enabled="true">
+      <location units="Millimeters" x="3.6081" y="52.3231" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="C2" side="Bottom" part-id="C_0805_100N" type="Placement" enabled="true">
+      <location units="Millimeters" x="19.1181" y="73.8731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="D18" side="Bottom" part-id="LED_0603_LED_R" type="Placement" enabled="true">
+      <location units="Millimeters" x="45.3931" y="124.0231" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="C14" side="Bottom" part-id="C_0805_10U" type="Placement" enabled="true">
+      <location units="Millimeters" x="5.7681" y="55.8731" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="C8" side="Bottom" part-id="C_0805_100N" type="Placement" enabled="true">
+      <location units="Millimeters" x="25.4181" y="93.6731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="D6" side="Bottom" part-id="SK6812-MINI-E_SK6812MINI-E" type="Placement" enabled="true">
+      <location units="Millimeters" x="45.5273" y="101.3573" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="D1" side="Bottom" part-id="D_SOD-123_D_SCHOTTKY" type="Placement" enabled="true">
+      <location units="Millimeters" x="2.1319" y="35.5231" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="FID1" side="Bottom" part-id="FIDUCIAL_1X2" type="Fiducial" enabled="true">
+      <location units="Millimeters" x="11.1681" y="122.7731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="U1" side="Bottom" part-id="SOT-23-5_74LVC1G17" type="Placement" enabled="true">
+      <location units="Millimeters" x="30.7681" y="62.6731" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="JP6" side="Bottom" part-id="SOLDERJUMPER-2_P1.3MM_OPEN_TRIANGLEPAD1.0X1.5MM_SOLDERJUMPER_2_OPEN" type="Placement" enabled="true">
+      <location units="Millimeters" x="44.9681" y="0.4481" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="R1" side="Bottom" part-id="R_0603_1M" type="Placement" enabled="true">
+      <location units="Millimeters" x="4.4319" y="1.3481" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="D3" side="Bottom" part-id="SK6812-MINI-E_SK6812MINI-E" type="Placement" enabled="true">
+      <location units="Millimeters" x="53.2546" y="87.9731" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="CN1" side="Bottom" part-id="JST_SH_SM04B-SRSS-TB_1X04-1MP_P1.00MM_HORIZONTAL_PH4" type="Placement" enabled="true">
+      <location units="Millimeters" x="50.4681" y="22.8731" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="D17" side="Bottom" part-id="LED_0603_LED_W" type="Placement" enabled="true">
+      <location units="Millimeters" x="23.0931" y="123.9606" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="R19" side="Bottom" part-id="R_0603_1R" type="Placement" enabled="true">
+      <location units="Millimeters" x="1.9719" y="46.2731" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="R11" side="Bottom" part-id="R_0603_1R" type="Placement" enabled="true">
+      <location units="Millimeters" x="3.5681" y="59.4731" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="U2" side="Bottom" part-id="RPI_PICO_SMD_RP2040" type="Placement" enabled="true">
+      <location units="Millimeters" x="17.8181" y="16.7831" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="R24" side="Bottom" part-id="R_0603_51K" type="Placement" enabled="true">
+      <location units="Millimeters" x="63.8681" y="83.3731" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="D15" side="Bottom" part-id="LED_0603_LED_W" type="Placement" enabled="true">
+      <location units="Millimeters" x="28.2731" y="123.9606" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="H1" side="Bottom" part-id="COLUMNSTUD_M3_MOUNTINGHOLE_PAD" type="Placement" enabled="true">
+      <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="U4" side="Bottom" part-id="DIODES_PSOP-8_IP5306" type="Placement" enabled="true">
+      <location units="Millimeters" x="0.5369" y="53.9481" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="D9" side="Bottom" part-id="SK6812-MINI-E_SK6812MINI-E" type="Placement" enabled="true">
+      <location units="Millimeters" x="28.4727" y="67.8966" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="L1" side="Bottom" part-id="L_SUNLORD_SWPA4020S_1UH" type="Placement" enabled="true">
+      <location units="Millimeters" x="1.2281" y="46.8731" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="SW2" side="Bottom" part-id="SHOUHAN_TS24CA_SW_PUSH" type="Placement" enabled="true">
+      <location units="Millimeters" x="50.3931" y="124.8231" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="R22" side="Bottom" part-id="R_0603_1K" type="Placement" enabled="true">
+      <location units="Millimeters" x="42.9931" y="124.0231" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="R12" side="Bottom" part-id="R_0603_1R" type="Placement" enabled="true">
+      <location units="Millimeters" x="5.7681" y="59.4731" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="R13" side="Bottom" part-id="R_0603_1K" type="Placement" enabled="true">
+      <location units="Millimeters" x="20.5731" y="120.3606" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="C17" side="Bottom" part-id="C_0805_22U" type="Placement" enabled="true">
+      <location units="Millimeters" x="2.9719" y="48.9731" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="R15" side="Bottom" part-id="R_0603_100K" type="Placement" enabled="true">
+      <location units="Millimeters" x="65.1681" y="91.7731" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="D7" side="Bottom" part-id="SK6812-MINI-E_SK6812MINI-E" type="Placement" enabled="true">
+      <location units="Millimeters" x="38.9317" y="81.2811" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="D13" side="Bottom" part-id="SK6812-MINI-E_SK6812MINI-E" type="Placement" enabled="true">
+      <location units="Millimeters" x="20.7454" y="81.2807" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="D8" side="Bottom" part-id="SK6812-MINI-E_SK6812MINI-E" type="Placement" enabled="true">
+      <location units="Millimeters" x="35.0681" y="87.9731" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="FID3" side="Bottom" part-id="FIDUCIAL_1X2" type="Fiducial" enabled="true">
+      <location units="Millimeters" x="4.5681" y="5.1269" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="JP1" side="Bottom" part-id="SOLDERJUMPER-2_P1.3MM_OPEN_TRIANGLEPAD1.0X1.5MM_SOLDERJUMPER_2_OPEN" type="Placement" enabled="true">
+      <location units="Millimeters" x="64.9681" y="0.4731" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="C9" side="Bottom" part-id="C_0805_100N" type="Placement" enabled="true">
+      <location units="Millimeters" x="21.8681" y="100.5731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="FID2" side="Bottom" part-id="FIDUCIAL_1X2" type="Fiducial" enabled="true">
+      <location units="Millimeters" x="79.1681" y="62.2731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="R16" side="Bottom" part-id="R_0603_1K" type="Placement" enabled="true">
+      <location units="Millimeters" x="40.5931" y="124.0231" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="C20" side="Bottom" part-id="C_0805_22U" type="Placement" enabled="true">
+      <location units="Millimeters" x="5.7681" y="52.3231" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="C7" side="Bottom" part-id="C_0805_100N" type="Placement" enabled="true">
+      <location units="Millimeters" x="29.4181" y="86.9731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="C10" side="Bottom" part-id="C_0805_100N" type="Placement" enabled="true">
+      <location units="Millimeters" x="47.6681" y="87.1731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="F1" side="Bottom" part-id="R_0805_2A" type="Placement" enabled="true">
+      <location units="Millimeters" x="5.5319" y="39.2606" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="R5" side="Bottom" part-id="R_0603_51K" type="Placement" enabled="true">
+      <location units="Millimeters" x="3.1681" y="32.9981" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="C15" side="Bottom" part-id="C_0805_10U" type="Placement" enabled="true">
+      <location units="Millimeters" x="3.5681" y="55.8731" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="C16" side="Bottom" part-id="C_0805_2.2U" type="Placement" enabled="true">
+      <location units="Millimeters" x="47.5231" y="57.1381" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="C6" side="Bottom" part-id="C_0805_100N" type="Placement" enabled="true">
+      <location units="Millimeters" x="33.4181" y="80.2731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="C5" side="Bottom" part-id="C_0805_100N" type="Placement" enabled="true">
+      <location units="Millimeters" x="37.3181" y="73.5731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="D16" side="Bottom" part-id="LED_0603_LED_W" type="Placement" enabled="true">
+      <location units="Millimeters" x="25.6831" y="123.9606" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="R4" side="Bottom" part-id="R_0603_43K" type="Placement" enabled="true">
+      <location units="Millimeters" x="3.1881" y="36.3981" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="C3" side="Bottom" part-id="C_0805_100N" type="Placement" enabled="true">
+      <location units="Millimeters" x="15.1181" y="80.5731" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="D5" side="Bottom" part-id="SK6812-MINI-E_SK6812MINI-E" type="Placement" enabled="true">
+      <location units="Millimeters" x="42.7954" y="74.589" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="R8" side="Bottom" part-id="R_0603_1K" type="Placement" enabled="true">
+      <location units="Millimeters" x="79.4681" y="94.7231" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="C18" side="Bottom" part-id="C_0805_22U" type="Placement" enabled="true">
+      <location units="Millimeters" x="0.1719" y="43.0731" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="R6" side="Bottom" part-id="R_0603_1M" type="Placement" enabled="true">
+      <location units="Millimeters" x="4.6319" y="34.2731" z="0.0" rotation="90.0" />
+    </placement>
+    <placement version="1.4" id="JP4" side="Bottom" part-id="SOLDERJUMPER-2_P1.3MM_OPEN_TRIANGLEPAD1.0X1.5MM_SOLDERJUMPER_2_OPEN" type="Placement" enabled="true">
+      <location units="Millimeters" x="52.9681" y="0.4481" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="JP3" side="Bottom" part-id="SOLDERJUMPER-2_P1.3MM_OPEN_TRIANGLEPAD1.0X1.5MM_SOLDERJUMPER_2_OPEN" type="Placement" enabled="true">
+      <location units="Millimeters" x="56.9681" y="0.4481" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="C13" side="Bottom" part-id="C_0805_4.7U" type="Placement" enabled="true">
+      <location units="Millimeters" x="53.1231" y="52.3381" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="R10" side="Bottom" part-id="R_0603_100R" type="Placement" enabled="true">
+      <location units="Millimeters" x="52.9481" y="50.2031" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="J3" side="Bottom" part-id="VORON_BADGE_EDGE_SPRING_PADS_CONN_02X07_COUNTER_CLOCKWISE" type="Placement" enabled="true">
+      <location units="Millimeters" x="37.0681" y="6.4269" z="0.0" rotation="0.0" />
+    </placement>
+    <placement version="1.4" id="R17" side="Bottom" part-id="R_0603_10K" type="Placement" enabled="true">
+      <location units="Millimeters" x="44.1931" y="120.8231" z="0.0" rotation="180.0" />
+    </placement>
+    <placement version="1.4" id="R2" side="Bottom" part-id="R_0603_10K" type="Placement" enabled="true">
+      <location units="Millimeters" x="0.9681" y="36.3981" z="0.0" rotation="-90.0" />
+    </placement>
+    <placement version="1.4" id="Q1" side="Bottom" part-id="SOT-23_MMBT5401" type="Placement" enabled="true">
+      <location units="Millimeters" x="59.8681" y="86.7731" z="0.0" rotation="90.0" />
+    </placement>
+  </placements>
+  <solder-paste-pads />
+</openpnp-board>

@@ -1,0 +1,62 @@
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 326:Plugin executed on: 'darwin'
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 327:Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 328:KiCad build version: (7.0.0-0)
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 329:Plugin version: 2.0.1
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 330:Frame repr: <wx._core.Frame object at 0x146fab700>
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 354:Preparing replicator with D12 as a reference
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 110:getting a list of all footprints on board
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 129:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 129:Footprint FID1 does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 129:Footprint FID2 does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 129:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 129:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 129:Footprint FID3 does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 129:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 129:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 129:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 402:source anchor footprint is 'D12'
+Located on: ['RimPixels']
+With filenames: ['rim_pixels.kicad_sch']
+With sheet_id:['RimPixels']
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 409:Corresponding footprints are 
+[('D36', ['RimPixels1']), ('D12', ['RimPixels']), ('D13', ['Pixels1']), ('D25', ['Pixels3']), ('D6', ['Pixels']), ('D19', ['Pixels2'])]
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 421:Showing dialog
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:constructing a list of sheets suitable for replication on level:'RimPixels', file:'rim_pixels.kicad_sch'
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 395:suitable sheets are:[['RimPixels1']]
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1318:Level selected: ['RimPixels']
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1153:Filtering list of tracks
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 427:Toolbar position: wx.Point(-872, 67)
+03-23 21:27:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 432:Dialog position: wx.Point(-1236, 67)
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:constructing a list of sheets suitable for replication on level:'RimPixels', file:'rim_pixels.kicad_sch'
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 395:suitable sheets are:[['RimPixels1']]
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 188:Replicating layout
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 204:Starting replication of sheets: [['RimPixels1']]
+on level: ['RimPixels']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+03-23 21:27:32 root 266:updating GUI message: 'Preparing for replication'
+03-23 21:27:32 root 271:updating GUI with: 0
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 274:Getting the list of source footprints
+03-23 21:27:32 root 271:updating GUI with: 0
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 284:Getting the list of all the remaining footprints
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 291:Getting source tracks
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1153:Filtering list of tracks
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 295:Getting source zones
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 299:Getting source text items
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 303:Getting source drawing items
+03-23 21:27:32 root 266:updating GUI message: 'Replicating footprints'
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 709:Replicating footprints
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 715:Replicating footprints on sheet ['RimPixels1']
+03-23 21:27:32 root 266:updating GUI message: 'Replicating tracks'
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 875:Replicating tracks
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 881:Replicating tracks on sheet ['RimPixels1']
+03-23 21:27:32 root 266:updating GUI message: 'Replicating zones'
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 933:Replicating zones
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 940:Replicating zones on sheet ['RimPixels1']
+03-23 21:27:32 root 266:updating GUI message: 'Replicating text'
+03-23 21:27:32 root 271:updating GUI with: 0
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating text
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1018:Replicating text on sheet ['RimPixels1']
+03-23 21:27:32 root 266:updating GUI message: 'Replicating drawings'
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1051:Replicating drawings
+03-23 21:27:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1057:Replicating drawings on sheet ['RimPixels1']
+03-23 21:27:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 204:Replication complete
