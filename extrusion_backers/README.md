@@ -1,5 +1,72 @@
 # Gantry Backing Plates
 
+## 2023 Update!
+
+Dang, these really ended up going a lot farther than I'd ever have imagined! Consensus around Voron Discord seems to be that they work pretty well, and as far as I can tell *thousands* of sets of these have now been installed! Absolutely wild. 
+
+
+### Sourcing
+
+A set of 3 backers in 1.9 mm steel can be bought at [SendCutSend](https://www.sendcutsend.com) for somewhere in the neighborhood of $10 (presuming you've met their minimum order of $29). 
+
+If you're feeling spendy, even the Ti backers still cost about the same as cheapo linear rails, with a set of three costing around $60. However, they still need to be countersunk and tapped, and that is *not fun* with titanium, speaking from experience!
+
+Since things started taking off, I coordinated with a manufacturer to make these available to vendors at a consistent quality level. Now, titanium and powdercoated steel backers in standard Voron sizes can be ordered from many vendors! That's awesome! Please note that I do not (and have never) accepted commission on these, so all proceeds go to support the vendors! 
+
+US:
+ 
+ - [DFH](https://dfh.fm/products/titanium-extrusion-backers?variant=41043803898025)
+ - [Fabreeko](https://www.fabreeko.com/search?type=product%2Cpage%2Carticle&q=backers)
+ - [West3D](https://west3d.com/products/titanium-backers-for-voron-2-4-trident-3-pack?_pos=1&_sid=729b7e5b3&_ss=r)
+ - [KB3D](https://kb-3d.com/store/voron/771-titanium-extrusion-backer-set-voron-v24-trident-multiple-styles.html)
+
+UK:
+
+ - [PrintyPlease](https://www.printyplease.uk/TitaniumBackers?search=backers)
+
+EU:
+
+ - [Lecktor](https://lecktor.com/en/v2x-frames/1003-voron-v24trident-350-titanium-backers-01003.html)
+
+You can even get them [on AliExpress now](https://s.click.aliexpress.com/e/_DdV9ss1), which completely blows my mind! (Note, that one is an affiliate link, so I may earn a small percentage if you click it. Also, I can't vouch for the quality or efficacy of the AliExpress-sourced parts!)
+
+If you are a vendor interested in having your link here or sourcing them for your store, please feel free to get in touch with me on Discord.
+
+These days I occasionally do some fun color anodizing of titanium backers and make them available on my web store, [LightweightLabware](https://www.lightweightlabware.com). 
+
+<img src="./images/anodized.jpeg" width=600>
+
+### Installation
+
+#### Location
+
+Backers should always be attached opposite a linear rail. For Voron V2.4 and Trident Y axes that means they go on top of the gantry extrusions. For X axes, in most cases you'll want to install them on the rear of the X extrusion, opposite the MGN12 rail. In older V2.4 configurations with dual MGN9 X axis rails, the more important rail to compensate is the bottom one, so the backer would go on top:
+
+<img src="./images/x_axis.jpeg" width=600>
+
+If you have a single MGN12 but decide to put a backer on top, you will be actively contributing to the problem of bimetallic expansion! 
+
+#### Fasteners
+
+Use 8mm FHCS for Y and 6mm FHCS for X. (7mm screws would work for either, if you can find them!) I recommend using Torx drive screws if possible, as the added contact surface area with the countersinks makes the M3 FHCS susceptible to camming out.
+
+#### Do you really need an X axis backer?
+
+With a single front rail, there is no bimetallic effect on the X axis inducing changes in Z height (it's all coming from Y), so you may elect to not even install the X axis backer in order to save weight (or because, like me, you are incredibly lazy). 
+
+However, there is still expansion going on! I noticed it while printing filament cards: the cards in the center of the print bed exhibited a shift in layer stacking along Y when printed from a cold start, but showed nice vertical layer stacking after the printed had warmed up. Pretty neat! Where that falls in your list of priorities and tradeoffs is up to  you.
+
+<img src="./images/x_effect.jpeg" width=300>
+
+#### My backer is bent!
+
+Note that the backers can sometimes exhibit some bowing along the length, particularly for the thinner X axis backer. That's completely fine, and has absolutely no bearing on their functionality -- they opererate in tension along the length of the backer, and add no meaningfully *rigidity* in bending. During installation, they'll clamp down to the extrusion and straighten right out. They are *not at all strong* in that direction so it makes zero difference. I just bent this one by hand to get the photo. 
+
+<img src="./images/bent.jpeg" width=600>
+
+
+
+
 ## The theory
 Due to different thermal coefficients of linear expansion between steel (rails) and aluminum (extrusions), the Voron V2 gantry forms a sort of giant bimetal temperature sensor element. This causes a warping of the gantry as it heats up with increasing chamber temperature.
 
@@ -69,13 +136,6 @@ To see an extreme example, I also tried simulating a hypothetical 450 mm frame s
 In this simulation, the un-backed extrusion bows by almost a full mm! In a V2.4 arrangement, with unbacked bottom rails on X and Y, you would expect almost 2 mm of deflection in the center of the bed — *10 layers!* In this case, we see the 3.2 mm backer reducing the total deflection by about 95%, and the MGN9 backer almost perfectly cancelling it out. 
 
 Take all of these simulation results with a giant grain of salt, please! We're collecting more data at a rapid clip.
-
-### Sourcing
-
-A set of 3 backers in 1.9 mm steel can be bought at [SendCutSend](https://www.sendcutsend.com) for somewhere in the neighborhood of $10 (presuming you've met their minimum order of $29). 
-
-If you're feeling spendy, even the Ti backers still cost about the same as cheapo linear rails, with a set of three costing around $60.
-
 
 ## The results
 
