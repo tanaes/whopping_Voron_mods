@@ -20,6 +20,10 @@ US:
  - [West3D](https://west3d.com/products/titanium-backers-for-voron-2-4-trident-3-pack?_pos=1&_sid=729b7e5b3&_ss=r)
  - [KB3D](https://kb-3d.com/store/voron/771-titanium-extrusion-backer-set-voron-v24-trident-multiple-styles.html)
 
+Canada:
+
+ - [3D Lab Tech](https://www.3dlabtech.ca/product/titanium-backers-for-voron-2-and-trident/)
+
 UK:
 
  - [PrintyPlease](https://www.printyplease.uk/TitaniumBackers?search=backers)
@@ -27,6 +31,10 @@ UK:
 EU:
 
  - [Lecktor](https://lecktor.com/en/v2x-frames/1003-voron-v24trident-350-titanium-backers-01003.html)
+
+AUS:
+
+- [UniquePrints](https://uniqueprints.shop/shop/voron-2-4/titanium-gantry-backers-voron-250/)
 
 You can even get them [on AliExpress now](https://s.click.aliexpress.com/e/_DdV9ss1), which completely blows my mind! (Note, that one is an affiliate link, so I may earn a small percentage if you click it. Also, I can't vouch for the quality or efficacy of the AliExpress-sourced parts!)
 
