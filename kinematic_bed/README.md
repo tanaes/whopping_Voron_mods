@@ -177,8 +177,6 @@ US:
 
 Canada:
 
-- RNDKBD
-  - [Voron 2.4 and Trident](https://rndkbd.com/collections/voron-3d-printer-parts)
 - 3D Lab Tech
   - [Voron 2.4](https://www.3dlabtech.ca/product/kinematic-bed-mount-for-voron-2/)
   - [Voron Trident](https://www.3dlabtech.ca/product/kinematic-bed-mount-for-voron-trident/)
