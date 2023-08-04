@@ -10,7 +10,8 @@ Inspired by Doc's fridge door mod and the [EZBake Trident Doom](https://github.c
 
 This solution is what fit the bill for me. The door opens smoothly, and can be easily removed from the hinges simply by lifting up. The latch mechanism actually draws the door closed against the sealing foam when closed, and clicks shut with the help of some magnets. It makes nice sounds.
 
-<img src="./Images/clicky.mp4" width=480>
+
+https://github.com/tanaes/whopping_Voron_mods/assets/8292608/8dcf28dc-69ba-4f01-a6c4-658524717b99
 
 I've found that this seals the chamber much more effectively than the stock doors, and have been running a prototype of this design on my 350-spec V2 for the past six months. 
 
