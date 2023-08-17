@@ -64,3 +64,7 @@ To remove the ball from the socket, loosen the M3x18 BHCS, insert the printed le
 
 Then press upwards on the lever to pop the ball out of the socket. Pop!
 
+
+
+https://github.com/tanaes/whopping_Voron_mods/assets/8292608/5f2148d0-707d-45ca-baed-95844d62153f
+
