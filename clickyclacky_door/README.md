@@ -26,6 +26,7 @@ I've found that this seals the chamber much more effectively than the stock door
  - Voron 2.4 and Voron Trident share X frame dimensions but have different Y dimensions. 
  - Flat-front extrusions are specified (as pictured above), but standard extrusions are less expensive
  - The panel retention strip specified is black. A [more inexpensive option](https://us.misumi-ec.com/vona2/detail/110303061830/?HissuCode=NSCP3H-S-6) is light grey in color, but comes in a minimum of 6 meter lengths and only saves a few bucks over 2 meters of the nicer black stuff.
+ - I have also just tried this even more [inexpensive alternative from AliExpress (affiliate link)](https://s.click.aliexpress.com/e/_DktkurN), in the "10x6 for 2-3mm board" flavor. It seems to fit the 3mm acrylic and seat snugly into Misumi extrusions. If you go this route, you *may* want to trim the panel another mm short for good measure, as this adds a mm of rubber between the panel edge and the extrusion. 
  - M5 dowel pins between 40mm and 50mm should work. The rounded-end pins make installing the door just a bit easier.
  - The sleeve bearings are the same size as used in the sexbolt endstop mod. You might have some on hand already!
  - 1/8" acrylic *sorta* works, but the extra 0.175mm makes the mounting strip *really* tight. I strongly recommend using actual 3mm thick stuff!  
