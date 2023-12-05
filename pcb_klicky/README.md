@@ -1,20 +1,17 @@
 # PCB Klicky
 
-<img src="./Images/perspective.png" width=600>
+<img src="./Images/perspective.png" width=480>
 
 Based on two legends: the [Klicky Probe](https://github.com/jlas1/Klicky-Probe) by JosAr and the [Euclid Probe](https://euclidprobe.github.io)
 
 This design attempts to replicate Klicky as closely as possible using a PCB-based design, to try and achieve the following aims:
 
 1. Reduce the problem of magnets working lose or seating poorly in printed parts
-2. Increase the current being switched, which might *possibly* result in a [longer switch lifetime](https://www.youtube.com/watch?v=v5BhECVlKJA&t=4s).
-3. Add LEDs.
+2. Longer switch lifetime by increasing the current being switched --> https://www.youtube.com/watch?v=v5BhECVlKJA&t=4s.
+3. Add LEDs to indicate the open/triggered status better
 
-## Beta test
-
-The [beta test units](https://www.lightweightlabware.com/shop/p/beta-pcb-klicky-probe-kit) were shipped out with the following components:
-
-- one toolhead PCB (pre-assembled with SMD components)
+## Bill of materials
+- one toolhead PCB (Printed Circuit Board - pre-assembled with SMD components)
 - two probe PCBs
 - one JST-XH 3 pin header
 - one JST-XH 3-wire pigtail connector
@@ -25,12 +22,11 @@ The [beta test units](https://www.lightweightlabware.com/shop/p/beta-pcb-klicky-
 - 3 self-tapping stainless torx drive M2 screws
 - 2 carbon steel M3x6mm flat head screws
 
-This should be enough to assemble one complete toolhead mount and two complete probes. 
-
-I would be very grateful if you could fill out a feedback survey so I can improve the kit in the future!
+This material enables you to assemble one complete toolhead mount and two complete probes. 
 
 ### CHANGE LOG
 - 2022-05-20: updated STLs to better match provided M2 heatset inserts
+- 2023-12-05: updated readme file 
 
 ## Assembly
 
@@ -38,32 +34,31 @@ I would be very grateful if you could fill out a feedback survey so I can improv
 
 The PCB Klicky uses a hybrid printed part / PCB design. The plastic parts serve as the 'nut' into which the screws are fastened, with the PCB sandwiched between the magnets and the printed part and helping to perfectly align the magnets.
 
-For the beta, you will need one toolhead adapter (`AB_mount`) and two probe adapters (`probe`). There are STLs included for both M2 heatset and M2 self-tapping screw versions. STLs aren't oriented, please use your best judgement. 
+You will need one toolhead adapter (`AB_mount`) and two probe adapters (`probe`).
+There are STLs included for both M2 heatset and M2 self-tapping screw versions. STLs aren't oriented, please use your best judgement. 
 
 If you have the newer Klicky dock, with the rear-insertion magnet, you may want to print a new front piece with a front-facing magnet position that aligns better with the PCB klicky steel screw head (see `STLs/dock-front_insert.stl`). On my printer, this gives more reliable positioning of the detached probe.
 
-### Modify PCB to fit your probe voltage
+### Modify toolhead PCB to fit your probe voltage
 
 PCB Klicky includes an indicator LED and current-limiting / pull-up resistor to ensure the rated current is passed over the microswitch. If having an exposed voltage rail on the bottom of your toolhead gives you the heebie-jeebies, you can just not connect the +V pin and it will function identically to a normal klicky probe.
 
-If you do choose to enable the indicator LED, you'll want to make sure you have selected the appropriate resistance. The board ships with a solder jumper (J1) in an *open* state, forcing the current to flow through the 2.2 kΩ resistor. Leave this pad as-is if you are operating the probe at 24V (for example, when replacing an Omron 24V inductive probe) and sending the signal back through a BAT85 diode or similar connection.
+If you do choose to enable the indicator LED, you'll want to make sure you have selected the appropriate resistance. 
+The board has a solder jumper (J1) in an *open* state, forcing the current to flow through the 2.2 kΩ resistor. Leave this pad as-is if you are operating the probe at 24V (for example, when replacing an Omron 24V inductive probe) and sending the signal back through a BAT85 diode or similar connection.
+For 3.3/5V probes, you may choose to bridge this jumper to allow a lower-resistance path to ground, ensuring ~10 mA passes over the switch contact:
 
 #### 24V: Open Solder Jumper
 
-
 <img src="./Images/24v.jpeg" width=400>
 
-
-For 3.3/5V probes, you may choose to bridge this jumper to allow a lower-resistance path to ground, ensuring ~10 mA passes over the switch contact:
-
-
-#### 5V: Bridged Solder Jumper
+#### 3,3/5V: Bridged Solder Jumper
 
 <img src="./Images/5v.jpeg" width=400>
 
 ### Solder switches and connectors
 
-Solder the JST header and microswitches on the appropriate sides of their respective PCBs. Follow the silkscreen instructions for the JST header, and line the 'plunger' side of the microswitch up with the text / arrow in the picture below:
+Solder the JST header on the upper side of the toolhead PCB. Follow the silkscreen instructions for the JST header.
+And the microswitches on the appropriate sides of the probe PCB´s. Line the 'plunger' side of the microswitch up with the text "microswitch on this side!". See arrow in the picture below:
 
 <img src="./Images/pcbs.jpeg" width=400>
 
@@ -76,8 +71,6 @@ Install heatsets in the printed part, taking care to ensure that they're flush w
 Make sure to keep your polarities in order! I used the dissimilar orientation on the odd-side of the boards, as in the following diagram:
 
 <img src="./Images/magnets.jpeg" width=400>
-
-I'm by no means sure this is optimal, but it seems to be working well for me!
 
 ***TIP!!*** You can use an app on your phone to determine magnet polarity! This is useful in case you make up more probes later and want to make sure they match. [iOS link](https://apps.apple.com/us/app/kj-pole-id/id1323248335) / [Android link](https://play.google.com/store/apps/details?id=air.de.supermagnete.magnetapp&hl=en_US&gl=US&pli=1) (Thanks so much PF!!)
 
@@ -102,7 +95,7 @@ Then move the toolhead over the normal klicky dock location (you may need to jog
 
 ## Klipper configuration
 
-You will only need to tweak a couple values from a standard Klicky install to make PCB klicky work.
+You will only need to tweak a couple values from a [standard Klicky config] (https://github.com/jlas1/Klicky-Probe/tree/main/Klipper_macros) install to make PCB klicky work.
 
 ### Adjust dock location
 
@@ -132,8 +125,8 @@ With the probe board disconnected, the probe should read as triggered. Double ch
 
 ### Check probe logic when attached
 
-If you've connected the +V wire to the PCB, you should see the LED turn on when you attach the probe. When sending a `QUERY_PROBE` command, it should return `probe: open`. 
-
+If you've connected the +V wire to the PCB, you should see the LED turn on when you attach the probe. 
+When sending a `QUERY_PROBE` command, it should return `probe: open`. 
 When you close the switch, the LED should turn off, and `QUERY_PROBE` should again return `probe: TRIGGERED`.
 
 <img src="./Images/probe_test.gif">
@@ -145,3 +138,7 @@ With the probe in the dock, verify that it attaches and detaches successfully. T
 ### Tweak auto-Z offsets
  
 You will probably need to adjust your auto-Z offsets, if you have it set up. 0
+
+## Feedback
+
+If you read that far, you are maybe interessed in making PCB_klicky even better and i would be very grateful if you could fill out a feedback survey so I can improve the kit in the future!
