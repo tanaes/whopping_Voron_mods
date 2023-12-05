@@ -45,23 +45,20 @@ PCB Klicky includes an indicator LED and current-limiting / pull-up resistor to 
 
 If you do choose to enable the indicator LED, you'll want to make sure you have selected the appropriate resistance. 
 The board has a solder jumper (J1) in an *open* state, forcing the current to flow through the 2.2 kΩ resistor. Leave this pad as-is if you are operating the probe at 24V (for example, when replacing an Omron 24V inductive probe) and sending the signal back through a BAT85 diode or similar connection.
+For 3.3/5V probes, you may choose to bridge this jumper to allow a lower-resistance path to ground, ensuring ~10 mA passes over the switch contact:
 
 #### 24V: Open Solder Jumper
 
 <img src="./Images/24v.jpeg" width=400>
 
-
-For 3.3/5V probes, you may choose to bridge this jumper to allow a lower-resistance path to ground, ensuring ~10 mA passes over the switch contact:
-
-
-#### 5V: Bridged Solder Jumper
+#### 3,3/5V: Bridged Solder Jumper
 
 <img src="./Images/5v.jpeg" width=400>
 
 ### Solder switches and connectors
 
 Solder the JST header on the upper side of the toolhead PCB. Follow the silkscreen instructions for the JST header.
-And the microswitches on the appropriate sides of the probe PCB´s. Line the 'plunger' side of the microswitch up with the text / arrow in the picture below:
+And the microswitches on the appropriate sides of the probe PCB´s. Line the 'plunger' side of the microswitch up with the text "microswitch on this side!". See arrow in the picture below:
 
 <img src="./Images/pcbs.jpeg" width=400>
 
@@ -74,8 +71,6 @@ Install heatsets in the printed part, taking care to ensure that they're flush w
 Make sure to keep your polarities in order! I used the dissimilar orientation on the odd-side of the boards, as in the following diagram:
 
 <img src="./Images/magnets.jpeg" width=400>
-
-I'm by no means sure this is optimal, but it seems to be working well for me!
 
 ***TIP!!*** You can use an app on your phone to determine magnet polarity! This is useful in case you make up more probes later and want to make sure they match. [iOS link](https://apps.apple.com/us/app/kj-pole-id/id1323248335) / [Android link](https://play.google.com/store/apps/details?id=air.de.supermagnete.magnetapp&hl=en_US&gl=US&pli=1) (Thanks so much PF!!)
 
@@ -100,7 +95,7 @@ Then move the toolhead over the normal klicky dock location (you may need to jog
 
 ## Klipper configuration
 
-You will only need to tweak a couple values from a standard Klicky install to make PCB klicky work.
+You will only need to tweak a couple values from a [standard Klicky config] https://github.com/jlas1/Klicky-Probe/tree/main/Klipper_macros install to make PCB klicky work.
 
 ### Adjust dock location
 
