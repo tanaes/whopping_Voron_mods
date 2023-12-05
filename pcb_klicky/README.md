@@ -1,6 +1,6 @@
 # PCB Klicky
 
-<img src="./Images/perspective.png" width=600>
+<img src="./Images/perspective.png" width=480>
 
 Based on two legends: the [Klicky Probe](https://github.com/jlas1/Klicky-Probe) by JosAr and the [Euclid Probe](https://euclidprobe.github.io)
 
