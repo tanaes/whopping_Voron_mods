@@ -11,7 +11,7 @@ This design attempts to replicate Klicky as closely as possible using a PCB-base
 3. Add LEDs to indicate the open/triggered status better
 
 ## Bill of materials
-- one toolhead PCB (pre-assembled with SMD components)
+- one toolhead PCB (Printed Circuit Board - pre-assembled with SMD components)
 - two probe PCBs
 - one JST-XH 3 pin header
 - one JST-XH 3-wire pigtail connector
@@ -34,7 +34,8 @@ This material enables you to assemble one complete toolhead mount and two comple
 
 The PCB Klicky uses a hybrid printed part / PCB design. The plastic parts serve as the 'nut' into which the screws are fastened, with the PCB sandwiched between the magnets and the printed part and helping to perfectly align the magnets.
 
-You will need one toolhead adapter (`AB_mount`) and two probe adapters (`probe`). There are STLs included for both M2 heatset and M2 self-tapping screw versions. STLs aren't oriented, please use your best judgement. 
+You will need one toolhead adapter (`AB_mount`) and two probe adapters (`probe`).
+There are STLs included for both M2 heatset and M2 self-tapping screw versions. STLs aren't oriented, please use your best judgement. 
 
 If you have the newer Klicky dock, with the rear-insertion magnet, you may want to print a new front piece with a front-facing magnet position that aligns better with the PCB klicky steel screw head (see `STLs/dock-front_insert.stl`). On my printer, this gives more reliable positioning of the detached probe.
 
@@ -59,7 +60,8 @@ For 3.3/5V probes, you may choose to bridge this jumper to allow a lower-resista
 
 ### Solder switches and connectors
 
-Solder the JST header and microswitches on the appropriate sides of their respective PCBs. Follow the silkscreen instructions for the JST header, and line the 'plunger' side of the microswitch up with the text / arrow in the picture below:
+Solder the JST header on the upper side of the toolhead PCB. Follow the silkscreen instructions for the JST header.
+And the microswitches on the appropriate sides of the probe PCB´s. Line the 'plunger' side of the microswitch up with the text / arrow in the picture below:
 
 <img src="./Images/pcbs.jpeg" width=400>
 
