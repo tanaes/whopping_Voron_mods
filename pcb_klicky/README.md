@@ -24,8 +24,6 @@ This design attempts to replicate Klicky as closely as possible using a PCB-base
 
 This material enables you to assemble one complete toolhead mount and two complete probes. 
 
-I would be very grateful if you could fill out a feedback survey so I can improve the kit in the future!
-
 ### CHANGE LOG
 - 2022-05-20: updated STLs to better match provided M2 heatset inserts
 - 2023-12-05: updated readme file 
@@ -143,3 +141,7 @@ With the probe in the dock, verify that it attaches and detaches successfully. T
 ### Tweak auto-Z offsets
  
 You will probably need to adjust your auto-Z offsets, if you have it set up. 0
+
+## Feedback
+
+If you read that far, you are maybe interessed in making PCB_klicky even better and i would be very grateful if you could fill out a feedback survey so I can improve the kit in the future!
