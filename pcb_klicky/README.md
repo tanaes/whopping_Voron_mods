@@ -95,7 +95,7 @@ Then move the toolhead over the normal klicky dock location (you may need to jog
 
 ## Klipper configuration
 
-You will only need to tweak a couple values from a [standard Klicky config] https://github.com/jlas1/Klicky-Probe/tree/main/Klipper_macros install to make PCB klicky work.
+You will only need to tweak a couple values from a [standard Klicky config] (https://github.com/jlas1/Klicky-Probe/tree/main/Klipper_macros) install to make PCB klicky work.
 
 ### Adjust dock location
 
@@ -125,8 +125,8 @@ With the probe board disconnected, the probe should read as triggered. Double ch
 
 ### Check probe logic when attached
 
-If you've connected the +V wire to the PCB, you should see the LED turn on when you attach the probe. When sending a `QUERY_PROBE` command, it should return `probe: open`. 
-
+If you've connected the +V wire to the PCB, you should see the LED turn on when you attach the probe. 
+When sending a `QUERY_PROBE` command, it should return `probe: open`. 
 When you close the switch, the LED should turn off, and `QUERY_PROBE` should again return `probe: TRIGGERED`.
 
 <img src="./Images/probe_test.gif">
