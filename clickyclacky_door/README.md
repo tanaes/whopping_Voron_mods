@@ -73,7 +73,7 @@ Hopefully this is pretty straightforward, but:
   - Add M3x8mm locating screws in handle. These prevent overtravel.
   - Add heatset insert into latch, and then screw in panel retention clip with M3x8mm BHCS.
   - Insert M5x45mm pins into handle. These should be a somewhat looser fit than the hinges pieces from earlier.
-  - Install sleeve bearings into handle hinges. Only one bearing per hinge -- they should tap in nicely with a hammer.
+  - Install sleeve bearings into handle hinges. Only one bearing per hinge -- they should tap in nicely with a hammer. Or, use a soldering iron to melt them in like a heatset! Great idea from [Ed Street](https://github.com/tanaes/whopping_Voron_mods/issues/47#issue-2488294541) 
   - You should now be able to slide the handle hinges onto the handle pins, and have the magnets keep them together. Nice!
 - Install door
   - Fix door to printer frame temporarily. Blue tape works great.
